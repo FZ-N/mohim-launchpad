@@ -17,24 +17,24 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    /* Moroccan red - primary brand color */
-    --primary: 355 75% 45%;
+    /* Dark blue - primary brand color */
+    --primary: 220 90% 35%;
     --primary-foreground: 0 0% 100%;
     
-    /* Moroccan green */
-    --secondary: 152 100% 19%;
+    /* Medium royal blue */
+    --secondary: 215 85% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Gold/amber accent */
-    --accent: 43 96% 56%;
-    --accent-foreground: 220 15% 15%;
+    /* Sky blue accent */
+    --accent: 200 85% 60%;
+    --accent-foreground: 0 0% 100%;
     
     /* Muted backgrounds */
     --muted: 210 20% 96%;
     --muted-foreground: 220 15% 45%;
 
-    /* Trust blue-gray for tech sections */
-    --trust: 215 25% 45%;
+    /* Deep blue for tech sections */
+    --trust: 230 60% 30%;
     --trust-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -47,8 +47,8 @@ All colors MUST be HSL.
     --radius: 0.75rem;
     
     /* Gradient definitions */
-    --gradient-hero: linear-gradient(135deg, hsl(355 75% 45%) 0%, hsl(355 75% 35%) 100%);
-    --gradient-trust: linear-gradient(135deg, hsl(215 25% 45%) 0%, hsl(215 25% 35%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(220 90% 35%) 0%, hsl(230 90% 25%) 100%);
+    --gradient-trust: linear-gradient(135deg, hsl(215 85% 50%) 0%, hsl(220 85% 40%) 100%);
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 20% 98%) 100%);
     
     /* Shadows */
@@ -87,19 +87,19 @@ All colors MUST be HSL.
     --popover: 220 20% 13%;
     --popover-foreground: 210 20% 98%;
 
-    --primary: 355 75% 55%;
+    --primary: 220 90% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 152 100% 25%;
+    --secondary: 215 85% 60%;
     --secondary-foreground: 0 0% 100%;
 
-    --accent: 43 96% 60%;
+    --accent: 200 85% 70%;
     --accent-foreground: 220 20% 10%;
 
     --muted: 220 20% 20%;
     --muted-foreground: 215 15% 65%;
 
-    --trust: 215 25% 55%;
+    --trust: 230 60% 45%;
     --trust-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
