@@ -5,10 +5,12 @@ import { Textarea } from '@/components/ui/textarea';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
+import { PartnershipForm } from '@/components/PartnershipForm';
 
 const Contact = () => {
   const { t } = useLanguage();
   const { toast } = useToast();
+  const [partnershipFormOpen, setPartnershipFormOpen] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -154,7 +156,11 @@ const Contact = () => {
                   We welcome collaborations with healthcare providers, technology partners, 
                   academic institutions, and innovation hubs.
                 </p>
-                <Button variant="outline" className="w-full">
+                <Button 
+                  variant="outline" 
+                  className="w-full"
+                  onClick={() => setPartnershipFormOpen(true)}
+                >
                   Learn About Partnership Opportunities
                 </Button>
               </div>
@@ -162,6 +168,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      
+      <PartnershipForm open={partnershipFormOpen} onOpenChange={setPartnershipFormOpen} />
     </div>
   );
 };
