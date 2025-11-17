@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { Globe, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import mohimLogo from '@/assets/mohim-logo.png';
 
 export const Navigation = () => {
   const { language, toggleLanguage, t } = useLanguage();
@@ -21,11 +22,9 @@ export const Navigation = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <NavLink to="/" className="flex items-center space-x-2">
-            <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-              <span className="text-primary-foreground font-bold text-xl">M</span>
-            </div>
-            <span className="font-bold text-xl text-foreground">MOHIM</span>
+          <NavLink to="/" className="flex items-center space-x-3">
+            <img src={mohimLogo} alt="MOHIM Logo" className="h-10 w-auto" />
+            <span className="font-bold text-xl text-foreground hidden sm:inline">MOHIM</span>
           </NavLink>
 
           {/* Desktop Navigation */}
