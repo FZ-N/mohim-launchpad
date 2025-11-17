@@ -8,14 +8,14 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 220 15% 15%;
+    --background: 220 25% 10%;
+    --foreground: 210 20% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 15% 15%;
+    --card: 220 20% 13%;
+    --card-foreground: 210 20% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
+    --popover: 220 20% 13%;
+    --popover-foreground: 210 20% 98%;
 
     /* Dark blue - primary brand color */
     --primary: 220 90% 35%;
@@ -30,26 +30,26 @@ All colors MUST be HSL.
     --accent-foreground: 0 0% 100%;
     
     /* Muted backgrounds */
-    --muted: 210 20% 96%;
-    --muted-foreground: 220 15% 45%;
+    --muted: 220 20% 20%;
+    --muted-foreground: 215 15% 65%;
 
     /* Deep blue for tech sections */
     --trust: 230 60% 30%;
     --trust-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 355 75% 45%;
+    --border: 220 20% 25%;
+    --input: 220 20% 25%;
+    --ring: 220 90% 50%;
 
     --radius: 0.75rem;
     
     /* Gradient definitions */
     --gradient-hero: linear-gradient(135deg, hsl(220 90% 35%) 0%, hsl(230 90% 25%) 100%);
     --gradient-trust: linear-gradient(135deg, hsl(215 85% 50%) 0%, hsl(220 85% 40%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 20% 98%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(220 25% 10%) 0%, hsl(220 20% 15%) 100%);
     
     /* Shadows */
     --shadow-soft: 0 2px 8px -2px hsl(220 15% 15% / 0.08);
