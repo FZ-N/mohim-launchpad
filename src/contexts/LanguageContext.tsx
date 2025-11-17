@@ -19,7 +19,7 @@ const translations = {
     
     // Home
     'home.title': 'MOHIM',
-    'home.subtitle': "Morocco's Digital Health Transformation Initiative",
+    'home.subtitle': "Morocco Health Interoperability & Maturity Lab",
     'home.tagline': 'Connecting systems. Securing data. Empowering care.',
     'home.description': 'MOHIM unites public, private, and academic partners to accelerate interoperability, promote innovation, and ensure digital trust in healthcare.',
     'home.cta.sandbox': 'Explore the Sandbox',
@@ -64,7 +64,7 @@ const translations = {
     
     // Home
     'home.title': 'MOHIM',
-    'home.subtitle': 'Initiative de Transformation Numérique de la Santé au Maroc',
+    'home.subtitle': 'Laboratoire Marocain d\'Interopérabilité et de Maturité Santé',
     'home.tagline': 'Connecter les systèmes. Sécuriser les données. Renforcer les soins.',
     'home.description': 'MOHIM unit les partenaires publics, privés et académiques pour accélérer l\'interopérabilité, promouvoir l\'innovation et assurer la confiance numérique dans les soins de santé.',
     'home.cta.sandbox': 'Explorer le Sandbox',

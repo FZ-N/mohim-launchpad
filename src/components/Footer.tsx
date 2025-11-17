@@ -1,4 +1,5 @@
 import { Mail, Globe } from 'lucide-react';
+import mohimLogo from '@/assets/mohim-logo.png';
 
 export const Footer = () => {
   return (
@@ -7,14 +8,12 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-                <span className="text-primary-foreground font-bold text-xl">M</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img src={mohimLogo} alt="MOHIM Logo" className="h-10 w-auto" />
               <span className="font-bold text-xl text-foreground">MOHIM</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Morocco's National Digital Health Transformation Initiative
+              Morocco Health Interoperability & Maturity Lab
             </p>
           </div>
 
@@ -46,13 +45,13 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:contact@mohim.ma" className="hover:text-primary transition-colors">
-                  contact@mohim.ma
+                <a href="mailto:contact@mohim.org" className="hover:text-primary transition-colors">
+                  contact@mohim.org
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Globe className="w-4 h-4" />
-                <span>mohim.ma</span>
+                <span>mohim.org</span>
               </li>
             </ul>
           </div>
