@@ -15,6 +15,7 @@ const translations = {
     'nav.about': 'About',
     'nav.usecase': 'Use Case',
     'nav.technology': 'Technology',
+    'nav.events': 'Forum 2025',
     'nav.contact': 'Contact',
     
     // Home
@@ -53,6 +54,27 @@ const translations = {
     'contact.name': 'Name',
     'contact.message': 'Message',
     'contact.send': 'Send Message',
+    
+    // Events
+    'events.title': 'eHealth Morocco Forum 2025',
+    'events.subtitle': 'From Vision to Impact: Advancing Digital Health for All',
+    'events.speakers': 'Featured Speakers',
+    'events.speakersDesc': 'Industry leaders and experts sharing insights on digital health transformation',
+    'events.agenda': 'Event Agenda',
+    'events.agendaDesc': 'Three days of workshops, demonstrations, and networking',
+    'events.registration': 'Registration & Welcome Coffee',
+    'events.opening': 'Opening Ceremony',
+    'events.keynote': 'Keynote: Digital Health Transformation',
+    'events.lunch': 'Networking Lunch',
+    'events.workshop1': 'Workshop: FHIR & IHE Standards',
+    'events.workshop2': 'Workshop: EMRAM Assessment',
+    'events.demo': 'Live Demo: MOHIM Sandbox',
+    'events.technical': 'Technical Session: Interoperability Architecture',
+    'events.hajj': 'Case Study: Hajj Patient Journey & IPS',
+    'events.panel': 'Panel: Future of Digital Health in Morocco',
+    'events.emram': 'EMRAM Deep Dive Session',
+    'events.partners': 'Partners Showcase & Networking',
+    'events.closing': 'Closing Ceremony & Awards',
   },
   fr: {
     // Navigation
@@ -60,6 +82,7 @@ const translations = {
     'nav.about': 'À propos',
     'nav.usecase': 'Cas d\'usage',
     'nav.technology': 'Technologie',
+    'nav.events': 'Forum 2025',
     'nav.contact': 'Contact',
     
     // Home
@@ -98,6 +121,27 @@ const translations = {
     'contact.name': 'Nom',
     'contact.message': 'Message',
     'contact.send': 'Envoyer le Message',
+    
+    // Events
+    'events.title': 'Forum eHealth Maroc 2025',
+    'events.subtitle': 'De la Vision à l\'Impact : Faire Progresser la Santé Numérique pour Tous',
+    'events.speakers': 'Conférenciers Invités',
+    'events.speakersDesc': 'Leaders de l\'industrie et experts partageant leurs perspectives sur la transformation de la santé numérique',
+    'events.agenda': 'Programme de l\'Événement',
+    'events.agendaDesc': 'Trois jours d\'ateliers, de démonstrations et de réseautage',
+    'events.registration': 'Inscription & Café d\'Accueil',
+    'events.opening': 'Cérémonie d\'Ouverture',
+    'events.keynote': 'Discours Principal : Transformation Santé Numérique',
+    'events.lunch': 'Déjeuner Networking',
+    'events.workshop1': 'Atelier : Normes FHIR & IHE',
+    'events.workshop2': 'Atelier : Évaluation EMRAM',
+    'events.demo': 'Démo Live : Sandbox MOHIM',
+    'events.technical': 'Session Technique : Architecture d\'Interopérabilité',
+    'events.hajj': 'Étude de Cas : Parcours Patient Hajj & IPS',
+    'events.panel': 'Table Ronde : Avenir de la Santé Numérique au Maroc',
+    'events.emram': 'Session Approfondie EMRAM',
+    'events.partners': 'Showcase Partenaires & Networking',
+    'events.closing': 'Cérémonie de Clôture & Remise de Prix',
   },
 };
 
