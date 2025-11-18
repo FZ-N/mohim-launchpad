@@ -71,10 +71,10 @@ const Home = () => {
                 <Network className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Interoperability
+                Interoperability Standards
               </h3>
               <p className="text-muted-foreground">
-                Seamlessly connect healthcare systems across Morocco and internationally using FAIR, FHIR, and IHE standards.
+                Implementation of HL7 FHIR, IHE profiles, and IPS for seamless cross-border data exchange between healthcare systems.
               </p>
             </div>
 
@@ -84,10 +84,10 @@ const Home = () => {
                 <Shield className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Digital Trust
+                Digital Trust & Security
               </h3>
               <p className="text-muted-foreground">
-                PKI-based security and WHO Smart Trust integration ensure data integrity and patient privacy at every step.
+                PKI-based security, WHO Smart Trust integration, and EMRAM assessments ensure data integrity and patient privacy.
               </p>
             </div>
 
