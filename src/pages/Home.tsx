@@ -97,10 +97,10 @@ const Home = () => {
                 <Heart className="w-6 h-6 text-accent" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Innovation Hub
+                Collaborative Innovation Hub
               </h3>
               <p className="text-muted-foreground">
-                Our sandbox enables partners to test, validate, and innovate in a secure, sovereign digital health ecosystem.
+                National and international ecosystem bringing together public institutions, hospitals, startups, and global partners.
               </p>
             </div>
           </div>
