@@ -1,14 +1,22 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Building2, Users, Globe2, Award } from 'lucide-react';
+import partnerPlaceholder from '@/assets/partner-placeholder.png';
 
 const About = () => {
   const { t } = useLanguage();
 
   const partners = [
-    { icon: Building2, name: 'Ministry of Health' },
-    { icon: Globe2, name: 'WHO' },
-    { icon: Users, name: 'Academic Institutions' },
-    { icon: Award, name: 'Innovation Hubs' },
+    { name: 'CNSS - Caisse Nationale de Sécurité Sociale', logo: partnerPlaceholder },
+    { name: 'UM6P - Université Mohammed VI Polytechnique', logo: partnerPlaceholder },
+    { name: 'UM6SS - Université Mohammed VI des Sciences de la Santé', logo: partnerPlaceholder },
+    { name: 'Ministry of Health Morocco', logo: partnerPlaceholder },
+    { name: 'MIBTech', logo: partnerPlaceholder },
+    { name: 'Siemens Healthineers', logo: partnerPlaceholder },
+    { name: 'Enovart', logo: partnerPlaceholder },
+    { name: 'Kereval', logo: partnerPlaceholder },
+    { name: 'SIVSA', logo: partnerPlaceholder },
+    { name: 'Nabady', logo: partnerPlaceholder },
+    { name: 'NumiH France', logo: partnerPlaceholder },
+    { name: 'IHE Catalyst', logo: partnerPlaceholder },
   ];
 
   return (
@@ -58,33 +66,32 @@ const About = () => {
       </section>
 
       {/* Partners Section */}
-      <section className="py-24 bg-muted">
+      <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-12">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-4">
               Our Partners
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {partners.map((partner, index) => {
-                const Icon = partner.icon;
-                return (
-                  <div
-                    key={index}
-                    className="flex items-center space-x-4 bg-card border border-border rounded-xl p-6 hover:shadow-md transition-shadow"
-                  >
-                    <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Icon className="w-6 h-6 text-primary" />
-                    </div>
-                    <span className="text-lg font-semibold text-foreground">
-                      {partner.name}
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-            <p className="text-center text-muted-foreground mt-8 text-lg">
-              {t('about.partners')}
+            <p className="text-center text-muted-foreground mb-12 text-lg">
+              Building Morocco's digital health ecosystem together
             </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {partners.map((partner, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col items-center justify-center bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all hover:scale-105"
+                >
+                  <img 
+                    src={partner.logo} 
+                    alt={partner.name}
+                    className="w-20 h-20 object-contain mb-3"
+                  />
+                  <span className="text-sm font-medium text-foreground text-center">
+                    {partner.name}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
