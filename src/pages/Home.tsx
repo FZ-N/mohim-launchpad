@@ -2,6 +2,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Shield, Network, Heart } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import heroImage from '@/assets/hero-interoperability.jpg';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -10,31 +11,38 @@ const Home = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary/10 via-background to-secondary/10">
-        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src={heroImage} 
+            alt="Healthcare Interoperability" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-background/80 to-secondary/90"></div>
+        </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 relative">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
+            <div className="inline-flex items-center space-x-2 bg-background/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/20">
               <Shield className="w-4 h-4" />
               <span>{t('home.subtitle')}</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold text-foreground tracking-tight">
+            <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight drop-shadow-lg">
               {t('home.title')}
             </h1>
             
-            <p className="text-xl md:text-2xl text-muted-foreground font-medium">
+            <p className="text-xl md:text-2xl text-white/90 font-medium drop-shadow-md">
               {t('home.tagline')}
             </p>
             
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-white/80 max-w-2xl mx-auto drop-shadow-md">
               {t('home.description')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Button 
                 size="lg" 
-                className="group"
+                className="group bg-white text-primary hover:bg-white/90"
                 onClick={() => navigate('/technology')}
               >
                 {t('home.cta.sandbox')}
@@ -43,6 +51,7 @@ const Home = () => {
               <Button 
                 size="lg" 
                 variant="outline"
+                className="border-white text-white hover:bg-white/10"
                 onClick={() => navigate('/about')}
               >
                 {t('home.cta.vision')}
