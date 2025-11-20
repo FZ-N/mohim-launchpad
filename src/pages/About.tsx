@@ -1,23 +1,9 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import partnerPlaceholder from '@/assets/partner-placeholder.png';
+import partnersAll from '@/assets/partners-all.png';
 
 const About = () => {
   const { t } = useLanguage();
 
-  const partners = [
-    { name: 'CNSS - Caisse Nationale de Sécurité Sociale', logo: partnerPlaceholder },
-    { name: 'UM6P - Université Mohammed VI Polytechnique', logo: partnerPlaceholder },
-    { name: 'UM6SS - Université Mohammed VI des Sciences de la Santé', logo: partnerPlaceholder },
-    { name: 'Ministry of Health Morocco', logo: partnerPlaceholder },
-    { name: 'MIBTech', logo: partnerPlaceholder },
-    { name: 'Siemens Healthineers', logo: partnerPlaceholder },
-    { name: 'Enovart', logo: partnerPlaceholder },
-    { name: 'Kereval', logo: partnerPlaceholder },
-    { name: 'SIVSA', logo: partnerPlaceholder },
-    { name: 'Nabady', logo: partnerPlaceholder },
-    { name: 'NumiH France', logo: partnerPlaceholder },
-    { name: 'IHE Catalyst', logo: partnerPlaceholder },
-  ];
 
   return (
     <div className="min-h-screen pt-16">
@@ -75,22 +61,12 @@ const About = () => {
             <p className="text-center text-muted-foreground mb-12 text-lg">
               Building Morocco's digital health ecosystem together
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {partners.map((partner, index) => (
-                <div
-                  key={index}
-                  className="flex flex-col items-center justify-center bg-card border border-border rounded-xl p-6 hover:shadow-md transition-all hover:scale-105"
-                >
-                  <img 
-                    src={partner.logo} 
-                    alt={partner.name}
-                    className="w-20 h-20 object-contain mb-3"
-                  />
-                  <span className="text-sm font-medium text-foreground text-center">
-                    {partner.name}
-                  </span>
-                </div>
-              ))}
+            <div className="flex justify-center">
+              <img 
+                src={partnersAll} 
+                alt="MOHIM Partners including CNSS, HIMSS, IHE Catalyst, Ministry of Health, and many healthcare technology companies"
+                className="w-full max-w-5xl rounded-xl shadow-lg"
+              />
             </div>
           </div>
         </div>
