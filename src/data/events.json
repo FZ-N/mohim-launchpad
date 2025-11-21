@@ -112,31 +112,31 @@
           "title": "Opening Panel",
           "speaker": "Pr Anass Doukkali, Mme Houda Ghayati, John Rayner, Alexander Berler",
           "description": "Officials — Ministries — HIMSS — IHE — CIeS",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "2:45 PM - 3:15 PM",
           "title": "Intra-Hospital Interoperability",
           "speaker": "Mohand Bacha (NUMiH), Antonio Iglesias (SIVSA), MIBTECH",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "3:15 PM - 3:30 PM",
           "title": "MOHIM and CI Vision",
           "speaker": "Izhar Mahjoub, Alexander Berler",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "3:30 PM - 4:00 PM",
           "title": "How to Test Healthcare Systems? IHE Methodology",
           "speaker": "Alexander Berler",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "4:15 PM - 4:45 PM",
           "title": "Interoperability of Health Systems in France",
           "speaker": "Yacine Tamoudi",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         }
       ]
     },
@@ -149,37 +149,37 @@
           "time": "9:00 AM - 9:30 AM",
           "title": "Hajj Demonstration and Gazelle Tool",
           "speaker": "Souleymane Thiam (IHE)",
-          "location": "Technical Demo Area"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "9:45 AM - 10:15 AM",
           "title": "HIMSS EMRAM",
           "speaker": "John Rayner",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "10:30 AM - 11:15 AM",
           "title": "Gazelle Tools Demo - Medical Imaging Use Case",
           "speaker": "Souleymane Thiam (IHE)",
-          "location": "Technical Demo Area"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "11:30 AM - 12:00 PM",
           "title": "Enterprise Imaging VNA and XDS",
           "speaker": "Mourad Lyoubi (SIEMENS)",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "12:15 PM - 12:45 PM",
           "title": "DGSN: Identity Server and API",
           "speaker": "DGSN Representatives",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "1:00 PM - 1:30 PM",
           "title": "Current Interoperability Situation in Spain and Future Directions",
           "speaker": "Jordi Piera Jimenez (CatSalut)",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "1:40 PM - 2:00 PM",
@@ -191,31 +191,31 @@
           "time": "2:00 PM - 2:45 PM",
           "title": "From Medical Prescription to Drug Dispensation",
           "speaker": "Omar Sefiani (Sophatel, Blink), Abdellah Tazi (Sobrus), Magica",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "2:45 PM - 3:15 PM",
           "title": "Interoperable Hospital Solutions FRANCE & MOROCCO - Patient Centricity Process Vision",
           "speaker": "Mohand Bacha (NUMiH), Enovacom, Mehdi Khaled, Izhar Mahjoub",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "3:15 PM - 3:30 PM",
           "title": "IPS HAJJ and MOHIM SANDBOX",
           "speaker": "MOHIM Team",
-          "location": "Technical Demo Area"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "3:30 PM - 4:00 PM",
           "title": "Gazelle Training",
           "speaker": "Yacine Tamoudi, Souleymane Thiam",
-          "location": "Training Room"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "4:15 PM - 4:45 PM",
           "title": "Connected Medical Office and Patient Portal",
           "speaker": "Nizar Belhadj (NABADY)",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         }
       ]
     },
@@ -228,37 +228,37 @@
           "time": "9:00 AM - 9:30 AM",
           "title": "Health Data Hosting in Morocco and MDC Standards",
           "speaker": "Belhaj ELGRAINI",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "9:45 AM - 10:15 AM",
           "title": "Healthcare Facilities Vulnerability to Cybersecurity Threats",
           "speaker": "NUCLEON",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "10:30 AM - 11:15 AM",
           "title": "National and Regional Interoperability - National and Regional HIEs: Spain, GCC PAHO",
           "speaker": "Alexander Berler, Antonio Iglesias, Mourad Lyoubi (SIEMENS, kaikai, SIVSA)",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "11:30 AM - 12:00 PM",
           "title": "Patient at the Center of Medical Office Management",
           "speaker": "Achraf El Ghezali (PRATISOFT)",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "12:15 PM - 12:45 PM",
           "title": "Drug Registry and IHE Profiles",
           "speaker": "Ali Sami (BLINKPHARMA)",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "1:00 PM - 1:30 PM",
           "title": "Roadmap Towards a Projectathon in Morocco / Africa",
           "speaker": "Alexander Berler, Yacine Tamoudi",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "1:40 PM - 2:00 PM",
@@ -270,7 +270,7 @@
           "time": "2:00 PM - 2:45 PM",
           "title": "OMNIDOC: Medical Devices Interoperability - Connected Ambulances",
           "speaker": "Zakaria Naciri",
-          "location": "Main Conference Hall"
+          "location": "MOHIM - Stand"
         },
         {
           "time": "2:45 PM - 3:15 PM",
@@ -283,7 +283,7 @@
           "title": "Launch of MOHIM Governance Working Group",
           "speaker": "Alexander Berler, Yacine Tamoudi, Izhar Mahjoub",
           "description": "Discussion Points: 1. MOHIM Roadmap 2. Use Cases List 3. Methodology Definition 4. Governance Context Definition",
-          "location": "Workshop Room"
+          "location": "MOHIM - Stand"
         }
       ]
     }
