@@ -13,7 +13,7 @@ const handleSubmit = async (e: React.FormEvent) => {
   }
 
   try {
-    const res = await fetch('/api/mohim-form', {
+    const res = await fetch('/api/mohim_form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
