@@ -114,15 +114,13 @@
       "bio": "Product Owner chez Nabady, orientée solution et spécialisée dans l’étude des besoins clients. J’accompagne les équipes à transformer les problématiques terrain en fonctionnalités claires et efficaces. Attentive aux retours utilisateurs, je contribue à définir des solutions digitales fiables et réellement utiles. Organisée et proactive, je veille à la cohérence et à la valeur ajoutée du produit."
     },
     {
-      "name": "EL MASLOHI Oumkaltoum",
-      "title": "CEO",
-      "organization": "Alphath",
-      "image": "/speakers/Oumkaltoum_ELMASLOHI.jpeg",
-      "bio": "Forte de plus de 15 ans d’expérience au sein des services de radiologie d’un centre de santé en zone sensible, Oumkaltoum EL MASLOHI s’est forgée une solide expertise, au plus près des besoins des patients et des professionnels. Animée par la conviction que l’accès aux soins et l’innovation numérique doivent aller de pair, elle a développé des solutions concrètes pour transformer la pratique médicale au quotidien.
-Passionnée par la technologie, elle s’est formée à la programmation informatique pour créer un logiciel de prise de rendez-vous en ligne et un système d’information radiologique (RIS), répondant aux défis spécifiques du terrain. Son engagement et sa vision entrepreneuriale ont été reconnus et soutenus via le programme Entrepreneurs dans la Ville, qui lui a permis de structurer et d’amplifier son projet.
-Aujourd’hui à la tête d’ALPHATH, Oumkaltoum accompagne les services d’imagerie médicale dans leur transformation digitale, offrant des outils sur-mesure pour faciliter la prise en charge des patients de A à Z, améliorer l’efficacité organisationnelle et soutenir l’accès aux soins pour tous, partout.
-Sa participation au Forum International de la e-Santé 2025 s’inscrit dans cette dynamique d’innovation collaborative pour faire converger les talents, les technologies et les expériences au service de la santé numérique en Afrique et à l’international."
-   }],
+  "name": "EL MASLOHI Oumkaltoum",
+  "title": "CEO",
+  "organization": "Alphath",
+  "image": "/speakers/Oumkaltoum_ELMASLOHI.jpeg",
+  "bio": "Forte de plus de 15 ans d’expérience au sein des services de radiologie d’un centre de santé en zone sensible, Oumkaltoum EL MASLOHI s’est forgée une solide expertise, au plus près des besoins des patients et des professionnels. Animée par la conviction que l’accès aux soins et l’innovation numérique doivent aller de pair, elle a développé des solutions concrètes pour transformer la pratique médicale au quotidien. Passionnée par la technologie, elle s’est formée à la programmation informatique pour créer un logiciel de prise de rendez-vous en ligne et un système d’information radiologique (RIS), répondant aux défis spécifiques du terrain. Son engagement et sa vision entrepreneuriale ont été reconnus et soutenus via le programme Entrepreneurs dans la Ville, qui lui a permis de structurer et d’amplifier son projet. Aujourd’hui à la tête d’ALPHATH, Oumkaltoum accompagne les services d’imagerie médicale dans leur transformation digitale, offrant des outils sur-mesure pour faciliter la prise en charge des patients de A à Z, améliorer l’efficacité organisationnelle et soutenir l’accès aux soins pour tous, partout. Sa participation au Forum International de la e-Santé 2025 s’inscrit dans cette dynamique d’innovation collaborative pour faire converger les talents, les technologies et les expériences au service de la santé numérique en Afrique et à l’international."
+}
+],
   "agenda": [
     {
       "day": "Day 1",
