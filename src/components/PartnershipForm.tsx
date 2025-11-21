@@ -76,7 +76,7 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
     }
 
     try {
-      const res = await fetch('/api/mohim-form', {
+      const res = await fetch('/api/mohim_form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
