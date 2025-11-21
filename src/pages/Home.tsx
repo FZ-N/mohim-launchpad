@@ -71,10 +71,10 @@ const Home = () => {
                 <Network className="w-6 h-6 text-primary" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Interoperability Standards
+                Interoperability Standards (HL7, IHE, IPS)
               </h3>
               <p className="text-muted-foreground">
-                Implementation of HL7 FHIR, IHE profiles, and IPS for seamless cross-border data exchange between healthcare systems.
+                Design and implementation of HL7 FHIR, IHE profiles, and the International Patient Summary (IPS) to enable secure, interoperable data exchange and alignment with HIMSS interoperability maturity frameworks.
               </p>
             </div>
 
@@ -84,10 +84,10 @@ const Home = () => {
                 <Shield className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Digital Trust & Security
+                Digital Trust, Security & Maturity
               </h3>
               <p className="text-muted-foreground">
-                PKI-based security, HIMSS and IHE standards, and EMRAM assessments ensure data integrity and patient privacy.
+                PKI-based security, IHE security and privacy profiles, and HIMSS EMRAM-aligned assessments ensure end-to-end data integrity, auditability, and patient privacy across the health ecosystem.
               </p>
             </div>
 
@@ -97,10 +97,10 @@ const Home = () => {
                 <Heart className="w-6 h-6 text-accent" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Collaborative Innovation Hub
+                Collaborative Innovation & Testbed Hub
               </h3>
               <p className="text-muted-foreground">
-                National and international ecosystem bringing together public institutions, hospitals, startups, and global partners.
+                A national and international innovation hub connecting public institutions, hospitals, startups, universities, and global partners (HIMSS, IHE, HL7) to co-design, test, and validate interoperable digital health solutions.
               </p>
             </div>
           </div>
@@ -111,10 +111,10 @@ const Home = () => {
       <section className="py-24 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Join the Digital Health Revolution
+            Accelerating HIMSS & IHE-Aligned Digital Health in Morocco
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Partner with MOHIM to shape the future of healthcare in Morocco and beyond.
+            Partner with MOHIM to advance EMRAM maturity, secure health data exchange, and world-class digital services for patients and professionals in Morocco and beyond.
           </p>
           <Button 
             size="lg" 
