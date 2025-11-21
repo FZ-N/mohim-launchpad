@@ -20,6 +20,21 @@ const About = () => {
           </div>
         </div>
       </section>
+      {/* Video Section */}
+<section className="py-20 bg-background">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-4xl mx-auto">
+      <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
+        <iframe
+          src="https://drive.google.com/file/d/1aI0TWMh95UQmM7uhkMwJZUxxALVtcswP/preview?autoplay=1&mute=1"
+          className="w-full h-[450px]"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Mission Section */}
       <section className="py-24 bg-background">
