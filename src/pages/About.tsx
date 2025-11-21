@@ -26,8 +26,8 @@ const About = () => {
     <div className="max-w-4xl mx-auto">
       <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
         <iframe
-          src="https://drive.google.com/file/d/1aI0TWMh95UQmM7uhkMwJZUxxALVtcswP/preview?autoplay=1&mute=1"
-          className="w-full h-[450px]"
+          src="https://www.youtube.com/embed/-zk-hePIcO4?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=-zk-hePIcO4"
+          className="w-full h-full scale-125 translate-y-[-10%] pointer-events-none"
           allow="autoplay; fullscreen"
           allowFullScreen
         />
