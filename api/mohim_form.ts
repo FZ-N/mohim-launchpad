@@ -1,25 +1,35 @@
 // api/mohim-form.ts
 import { createClient } from '@supabase/supabase-js';
 
-// Load environment variables from Vercel
-const supabaseUrl = process.env.SUPABASE_URL as string;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY as string;
+const supabaseUrl = process.env.SUPABASE_URL as string | undefined;
+const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY as string | undefined;
 
-// Create Supabase client using service_role key (backend only)
-const supabase = createClient(supabaseUrl, supabaseKey);
-
+// This handler runs on Vercel as a Node function
 export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') {
     res.setHeader?.('Allow', 'POST');
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  try {
-    const data = req.body;
+  // 1) Check env vars
+  if (!supabaseUrl || !supabaseKey) {
+    console.error('Missing Supabase env vars', { supabaseUrl: !!supabaseUrl, supabaseKey: !!supabaseKey });
+    return res.status(500).json({
+      error: 'Supabase configuration missing',
+      details: {
+        hasSupabaseUrl: !!supabaseUrl,
+        hasSupabaseKey: !!supabaseKey,
+      },
+    });
+  }
 
-    // Insert into Supabase
+  const supabase = createClient(supabaseUrl, supabaseKey);
+
+  try {
+    const data = req.body as any;
+
     const { error } = await supabase
-      .from('mohim_memberships')
+      .from('mohim_memberships') // 👈 make sure this table name is EXACT
       .insert({
         full_name: data.fullName,
         job_title: data.jobTitle,
@@ -63,12 +73,22 @@ export default async function handler(req: any, res: any) {
 
     if (error) {
       console.error('Supabase Insert Error:', error);
-      return res.status(500).json({ error: 'Failed to save to database' });
+      return res.status(500).json({
+        error: 'Failed to save to database',
+        details: {
+          message: error.message,
+          hint: error.hint,
+          code: error.code,
+        },
+      });
     }
 
     return res.status(200).json({ ok: true });
-  } catch (err) {
+  } catch (err: any) {
     console.error('Error in mohim-form route:', err);
-    return res.status(500).json({ error: 'Unexpected server error' });
+    return res.status(500).json({
+      error: 'Unexpected server error',
+      details: err?.message || String(err),
+    });
   }
 }
