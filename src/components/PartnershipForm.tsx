@@ -61,7 +61,7 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
     consentNewsletter: false,
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!formData.consentTerms || !formData.consentData) {
@@ -75,13 +75,94 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
       return;
     }
     
-    toast({
-      title: language === 'fr' ? 'Demande envoyée !' : 'Application Submitted!',
-      description: language === 'fr'
-        ? 'Merci pour votre demande d\'adhésion. Nous vous contacterons bientôt.'
-        : 'Thank you for your partnership application. We will contact you soon.',
-    });
-    onOpenChange(false);
+    // TODO: Replace with your webhook URL from Zapier or Make.com
+    const webhookUrl = "YOUR_WEBHOOK_URL_HERE";
+    
+    if (webhookUrl === "YOUR_WEBHOOK_URL_HERE") {
+      toast({
+        title: language === 'fr' ? 'Configuration requise' : 'Configuration Required',
+        description: language === 'fr'
+          ? 'Configurez l\'URL du webhook. Consultez la console pour les instructions.'
+          : 'Please configure the webhook URL. Check console for instructions.',
+        variant: 'destructive',
+      });
+      console.log("=== Google Sheets Integration Setup ===");
+      console.log("1. Create a Google Sheet with columns matching the form fields");
+      console.log("2. Go to Zapier.com or Make.com");
+      console.log("3. Create a new Zap/Scenario:");
+      console.log("   - Trigger: Webhooks (Catch Hook)");
+      console.log("   - Action: Google Sheets (Create Spreadsheet Row)");
+      console.log("4. Copy the webhook URL and replace 'YOUR_WEBHOOK_URL_HERE' in PartnershipForm.tsx line 67");
+      console.log("\nForm data structure that will be sent:", formData);
+      return;
+    }
+
+    try {
+      await fetch(webhookUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        mode: "no-cors",
+        body: JSON.stringify({
+          ...formData,
+          submittedAt: new Date().toISOString(),
+        }),
+      });
+
+      toast({
+        title: language === 'fr' ? 'Demande envoyée !' : 'Application Submitted!',
+        description: language === 'fr'
+          ? 'Merci pour votre demande d\'adhésion. Nous vous contacterons bientôt.'
+          : 'Thank you for your partnership application. We will contact you soon.',
+      });
+      
+      // Reset form
+      setFormData({
+        fullName: '',
+        jobTitle: '',
+        organization: '',
+        email: '',
+        phone: '',
+        city: '',
+        country: '',
+        sector: '',
+        sectorOther: '',
+        membershipType: '',
+        interestFHIR: false,
+        interestEMRAM: false,
+        interestGovernance: false,
+        interestCyber: false,
+        interestProjectathons: false,
+        interestTraining: false,
+        interestInnovation: false,
+        interestOther: '',
+        serviceSandbox: false,
+        serviceConformity: false,
+        serviceCertification: false,
+        serviceTraining: false,
+        serviceAudit: false,
+        serviceConsulting: false,
+        companyName: '',
+        address: '',
+        taxId: '',
+        paymentMethod: '',
+        consentTerms: false,
+        consentData: false,
+        consentNewsletter: false,
+      });
+      
+      onOpenChange(false);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast({
+        title: language === 'fr' ? 'Erreur' : 'Error',
+        description: language === 'fr'
+          ? 'Erreur lors de l\'envoi. Veuillez réessayer.'
+          : 'Error submitting form. Please try again.',
+        variant: 'destructive',
+      });
+    }
   };
 
   return (
