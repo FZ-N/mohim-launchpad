@@ -24,7 +24,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <NavLink to="/" className="flex items-center space-x-3">
-            <img src={mohimLogo} alt="MOHIM Logo" className="h-10 w-auto" />
+            <img src={mohimLogo} alt="MOHIM Logo" className="h-14 w-auto" />
             <span className="font-bold text-xl text-foreground hidden sm:inline">MOHIM</span>
           </NavLink>
 

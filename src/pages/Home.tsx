@@ -22,20 +22,20 @@ const Home = () => {
         </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 relative">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            <div className="inline-flex items-center space-x-2 bg-background/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/20">
+            <div className="inline-flex items-center space-x-2 bg-background/20 backdrop-blur-sm text-primary px-4 py-2 rounded-full text-sm font-medium border border-primary/20">
               <Shield className="w-4 h-4" />
               <span>{t('home.subtitle')}</span>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight drop-shadow-lg">
+            <h1 className="text-5xl md:text-7xl font-bold text-primary tracking-tight drop-shadow-lg">
               {t('home.title')}
             </h1>
             
-            <p className="text-xl md:text-2xl text-white/90 font-medium drop-shadow-md">
+            <p className="text-xl md:text-2xl text-primary font-medium drop-shadow-md">
               {t('home.tagline')}
             </p>
             
-            <p className="text-lg text-white/80 max-w-2xl mx-auto drop-shadow-md">
+            <p className="text-lg text-primary/90 max-w-2xl mx-auto drop-shadow-md">
               {t('home.description')}
             </p>
             
@@ -51,7 +51,7 @@ const Home = () => {
               <Button 
                 size="lg" 
                 variant="outline"
-                className="border-white text-white hover:bg-white/10"
+                className="border-primary text-primary hover:bg-primary/10"
                 onClick={() => navigate('/about')}
               >
                 {t('home.cta.vision')}
@@ -87,7 +87,7 @@ const Home = () => {
                 Digital Trust & Security
               </h3>
               <p className="text-muted-foreground">
-                PKI-based security, WHO Smart Trust integration, and EMRAM assessments ensure data integrity and patient privacy.
+                PKI-based security, HIMSS and IHE standards, and EMRAM assessments ensure data integrity and patient privacy.
               </p>
             </div>
 

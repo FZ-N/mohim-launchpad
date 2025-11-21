@@ -116,7 +116,7 @@ const UseCase = () => {
                   </h3>
                   <p className="text-muted-foreground ml-5">
                     Patient visits a healthcare facility in Rabat where their medical data is recorded in OpenMRS. 
-                    This information automatically synchronizes with MOHIM's FAIR API, creating a standardized 
+                    This information automatically synchronizes with MOHIM's API, creating a standardized 
                     International Patient Summary (IPS).
                   </p>
                 </div>
@@ -129,7 +129,7 @@ const UseCase = () => {
                   <p className="text-muted-foreground ml-5">
                     When the patient travels for Hajj, they carry a secure QR code containing their encrypted 
                     health summary. Healthcare providers in Mecca can instantly access this information through 
-                    the WHO Smart Trust Global Digital Health Certification Network (GDHCN), ensuring continuity of care.
+                    global digital health networks, ensuring continuity of care.
                   </p>
                 </div>
 
