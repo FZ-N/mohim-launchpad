@@ -3,6 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { Globe, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import mohimLogo from '@/assets/mohim-logo.png'; // Mohim logo
 import iheCatalystLogo from '@/assets/ihe-catalyst-logo.jpg'; // Catalyst logo
 
 export const Navigation = () => {
@@ -22,11 +23,12 @@ export const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo - Only Catalyst Logo */}
+          {/* Logos: Mohim and Catalyst */}
           <NavLink to="/" className="flex items-center space-x-4">
+            {/* Mohim Logo */}
+            <img src={mohimLogo} alt="MOHIM Logo" className="h-14 w-auto" />
+            {/* Catalyst Logo */}
             <img src={iheCatalystLogo} alt="IHE Catalyst Logo" className="h-14 w-auto" />
-            {/* If you want to display a name alongside the logo, uncomment this */}
-            {/* <span className="font-bold text-xl text-foreground hidden sm:inline">IHE Catalyst</span> */}
           </NavLink>
 
           {/* Desktop Navigation */}
