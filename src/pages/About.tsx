@@ -4,7 +4,6 @@ import partnersAll from '@/assets/partners-all.png';
 const About = () => {
   const { t } = useLanguage();
 
-
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
@@ -20,21 +19,23 @@ const About = () => {
           </div>
         </div>
       </section>
+
       {/* Video Section */}
-<section className="py-20 bg-background">
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="max-w-4xl mx-auto">
-      <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
-        <iframe
-          src="https://www.youtube.com/embed/-zk-hePIcO4?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=-zk-hePIcO4"
-          className="w-full h-full scale-125 translate-y-[-10%] pointer-events-none"
-          allow="autoplay; fullscreen"
-          allowFullScreen
-        />
-      </div>
-    </div>
-  </div>
-</section>
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="rounded-2xl overflow-hidden shadow-xl border border-border">
+              <iframe
+                src="https://www.youtube.com/embed/-zk-hePIcO4?autoplay=1&mute=1"
+                className="w-full h-[450px]"
+                title="MOHIM Video"
+                allow="autoplay; fullscreen; encrypted-media"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Mission Section */}
       <section className="py-24 bg-background">
@@ -71,7 +72,7 @@ const About = () => {
               Our Partners
             </h2>
             <p className="text-center text-muted-foreground mb-12 text-lg">
-              Building Morocco's digital health ecosystem together
+              Building Morocco&apos;s digital health ecosystem together
             </p>
             <div className="flex justify-center">
               <img 
@@ -99,7 +100,7 @@ const About = () => {
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 By aligning with global standards and creating a collaborative environment for public 
-                and private stakeholders, MOHIM ensures that Morocco's digital health infrastructure 
+                and private stakeholders, MOHIM ensures that Morocco&apos;s digital health infrastructure 
                 is prepared for the challenges and opportunities of tomorrow.
               </p>
             </div>
