@@ -3,7 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { Globe, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import mohimLogo from '@/assets/mohim-logo.png'; // Mohim logo
+import mohimLogo from '@/assets/mohim-logo.jpeg'; // Mohim logo
 import iheCatalystLogo from '@/assets/ihe-catalyst-logo.jpg'; // Catalyst logo
 
 export const Navigation = () => {
