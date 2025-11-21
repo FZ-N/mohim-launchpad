@@ -28,23 +28,23 @@ const translations = {
     
     // About
     'about.title': 'About MOHIM',
-    'about.intro': 'MOHIM is the national platform dedicated to digital health interoperability, aligned with international standards — FAIR, FHIR, IHE, and WHO Smart Trust.',
+    'about.intro': 'MOHIM is the national platform dedicated to digital health interoperability, aligned with international standards — FHIR, IHE, and HIMSS.',
     'about.mission': 'Through its interoperability sandbox, MOHIM enables testing, validation, and innovation in a secure, sovereign ecosystem.',
     'about.partners': 'Partners: Ministry of Health, WHO, academic institutions, and private innovation hubs.',
     
     // Use Case
     'usecase.title': 'Use Case: Rabat to Mecca',
-    'usecase.step1': 'Patient data from OpenMRS in Rabat synchronizes with MOHIM\'s FAIR API',
-    'usecase.step2': 'A secure QR code allows instant access abroad via WHO Smart Trust GDHCN network',
+    'usecase.step1': 'Patient data from OpenMRS in Rabat synchronizes with MOHIM\'s API',
+    'usecase.step2': 'A secure QR code allows instant access abroad via global health networks',
     'usecase.step3': 'Data returns seamlessly to Morocco, ensuring continuity of care',
     
     // Technology
     'tech.title': 'Technology & Standards',
     'tech.sandbox': 'Interoperability Sandbox',
-    'tech.fair': 'FAIR APIs',
+    'tech.data': 'Data Standards',
     'tech.pki': 'PKI-based Digital Signing',
     'tech.ips': 'International Patient Summary (IPS)',
-    'tech.who': 'WHO Smart Trust Integration',
+    'tech.interop': 'Global Health Interoperability',
     'tech.subtitle': 'Each innovation aligns with global interoperability standards to strengthen Morocco\'s digital health maturity.',
     
     // Contact
@@ -95,23 +95,23 @@ const translations = {
     
     // About
     'about.title': 'À propos de MOHIM',
-    'about.intro': 'MOHIM est la plateforme nationale dédiée à l\'interopérabilité de la santé numérique, alignée sur les normes internationales — FAIR, FHIR, IHE et WHO Smart Trust.',
+    'about.intro': 'MOHIM est la plateforme nationale dédiée à l\'interopérabilité de la santé numérique, alignée sur les normes internationales — FHIR, IHE et HIMSS.',
     'about.mission': 'Grâce à son sandbox d\'interopérabilité, MOHIM permet le test, la validation et l\'innovation dans un écosystème sécurisé et souverain.',
     'about.partners': 'Partenaires : Ministère de la Santé, OMS, institutions académiques et pôles d\'innovation privés.',
     
     // Use Case
     'usecase.title': 'Cas d\'usage : Rabat à La Mecque',
-    'usecase.step1': 'Les données patient d\'OpenMRS à Rabat se synchronisent avec l\'API FAIR de MOHIM',
-    'usecase.step2': 'Un QR code sécurisé permet un accès instantané à l\'étranger via le réseau WHO Smart Trust GDHCN',
+    'usecase.step1': 'Les données patient d\'OpenMRS à Rabat se synchronisent avec l\'API de MOHIM',
+    'usecase.step2': 'Un QR code sécurisé permet un accès instantané à l\'étranger via les réseaux de santé mondiaux',
     'usecase.step3': 'Les données retournent de manière transparente au Maroc, assurant la continuité des soins',
     
     // Technology
     'tech.title': 'Technologie & Normes',
     'tech.sandbox': 'Sandbox d\'Interopérabilité',
-    'tech.fair': 'APIs FAIR',
+    'tech.data': 'Normes de Données',
     'tech.pki': 'Signature Numérique PKI',
     'tech.ips': 'Résumé International du Patient (IPS)',
-    'tech.who': 'Intégration WHO Smart Trust',
+    'tech.interop': 'Interopérabilité Santé Mondiale',
     'tech.subtitle': 'Chaque innovation s\'aligne sur les normes mondiales d\'interopérabilité pour renforcer la maturité numérique de la santé au Maroc.',
     
     // Contact

@@ -14,8 +14,8 @@ const Technology = () => {
     },
     {
       icon: Database,
-      title: t('tech.fair'),
-      description: 'Findable, Accessible, Interoperable, and Reusable data principles',
+      title: t('tech.data'),
+      description: 'Standardized data principles for healthcare interoperability',
       color: 'secondary',
     },
     {
@@ -32,8 +32,8 @@ const Technology = () => {
     },
     {
       icon: Globe2,
-      title: t('tech.who'),
-      description: 'Global Digital Health Certification Network connectivity',
+      title: t('tech.interop'),
+      description: 'Global Digital Health network connectivity',
       color: 'primary',
     },
     {
@@ -125,7 +125,7 @@ const Technology = () => {
                       Interoperability Layer
                     </h3>
                     <p className="text-muted-foreground">
-                      MOHIM's FAIR APIs transform data into standardized FHIR resources and IPS documents, 
+                      MOHIM's APIs transform data into standardized FHIR resources and IPS documents, 
                       enabling seamless exchange between systems.
                     </p>
                   </div>
@@ -141,7 +141,7 @@ const Technology = () => {
                       Security Layer
                     </h3>
                     <p className="text-muted-foreground">
-                      PKI-based digital signatures and WHO Smart Trust verification ensure data integrity, 
+                      PKI-based digital signatures with HIMSS and IHE standards ensure data integrity, 
                       authenticity, and patient privacy.
                     </p>
                   </div>
@@ -157,7 +157,7 @@ const Technology = () => {
                       Global Exchange Layer
                     </h3>
                     <p className="text-muted-foreground">
-                      Integration with WHO's GDHCN enables secure cross-border health data exchange, 
+                      Integration with global health networks enables secure cross-border health data exchange, 
                       supporting international care continuity.
                     </p>
                   </div>

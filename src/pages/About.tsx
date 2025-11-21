@@ -33,17 +33,14 @@ const About = () => {
                 {t('about.mission')}
               </p>
               <div className="flex flex-wrap gap-3">
-                <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-                  FAIR
-                </span>
                 <span className="px-4 py-2 bg-secondary/10 text-secondary rounded-full text-sm font-medium">
                   FHIR
                 </span>
                 <span className="px-4 py-2 bg-trust/10 text-trust rounded-full text-sm font-medium">
                   IHE
                 </span>
-                <span className="px-4 py-2 bg-accent/10 text-accent-foreground rounded-full text-sm font-medium">
-                  WHO Smart Trust
+                <span className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
+                  HIMSS
                 </span>
               </div>
             </div>
