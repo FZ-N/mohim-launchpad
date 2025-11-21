@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Shield, Network, Heart } from 'lucide-react';
+import { ArrowRight, Shield, Network, Heart, PlayCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import heroImage from '@/assets/hero-interoperability.jpg';
 
@@ -61,6 +61,47 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Video Teaser Section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div 
+            className="max-w-4xl mx-auto group cursor-pointer"
+            onClick={() => navigate('/about')}
+          >
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground">
+                Discover the MOHIM Journey
+              </h2>
+              <span className="text-sm text-muted-foreground hidden sm:inline">
+                Click to watch the full video on the About page
+              </span>
+            </div>
+
+            <div className="relative rounded-2xl overflow-hidden border border-border shadow-xl">
+              {/* Cropped video */}
+              <div className="h-40 md:h-56 overflow-hidden">
+                <iframe
+                  src="https://drive.google.com/file/d/1aI0TWMh95UQmM7uhkMwJZUxxALVtcswP/preview"
+                  className="w-full h-full scale-125 translate-y-[-10%] pointer-events-none"
+                  allow="autoplay; fullscreen"
+                />
+              </div>
+
+              {/* Dark overlay + play button */}
+              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-300" />
+              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
+                <div className="flex items-center justify-center w-16 h-16 rounded-full bg-white/90 group-hover:bg-white shadow-lg transition-transform duration-300 group-hover:scale-105">
+                  <PlayCircle className="w-9 h-9 text-primary" />
+                </div>
+                <p className="text-sm md:text-base text-white/90 font-medium">
+                  Watch the MOHIM story
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -97,7 +138,7 @@ const Home = () => {
                 <Heart className="w-6 h-6 text-accent" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
-                Collaborative Innovation & Testbed Hub
+                Collaborative Innovation Hub
               </h3>
               <p className="text-muted-foreground">
                 A national and international innovation hub connecting public institutions, hospitals, startups, universities, and global partners (HIMSS, IHE, HL7) to co-design, test, and validate interoperable digital health solutions.
@@ -111,10 +152,10 @@ const Home = () => {
       <section className="py-24 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Accelerating HIMSS & IHE-Aligned Digital Health in Morocco
+            Join the Digital Health Revolution
           </h2>
           <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Partner with MOHIM to advance EMRAM maturity, secure health data exchange, and world-class digital services for patients and professionals in Morocco and beyond.
+            Partner with MOHIM to shape the future of healthcare in Morocco and beyond.
           </p>
           <Button 
             size="lg" 
