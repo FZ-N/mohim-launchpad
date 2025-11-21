@@ -76,7 +76,7 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
     }
     
     // TODO: Replace with your webhook URL from Zapier or Make.com
-    const webhookUrl = "YOUR_WEBHOOK_URL_HERE";
+    const webhookUrl = "https://hook.eu1.make.com/iyfx2xq10mfko46e35rp2zppkqqgtpra";
     
     if (webhookUrl === "YOUR_WEBHOOK_URL_HERE") {
       toast({
