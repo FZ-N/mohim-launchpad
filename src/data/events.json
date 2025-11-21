@@ -1,104 +1,110 @@
 {
+  
   "speakers": [
     {
-      "name": "Pr Anass Doukkali",
-      "title": "Professor",
-      "organization": "Ministry / Official"
-    },
-    {
-      "name": "Mme Houda Ghayati",
-      "title": "Official Representative",
-      "organization": "Ministry"
-    },
-    {
-      "name": "John Rayner",
-      "title": "HIMSS EMRAM Expert",
-      "organization": "HIMSS"
-    },
-    {
-      "name": "Alexander Berler",
-      "title": "IHE Expert",
-      "organization": "IHE Europe"
+      "name": "Achraf El Ghezali",
+      "title": "Medical Practice Management Expert",
+      "organization": "PRATISOFT",
+      "image": "/speakers/ACHRAF_GHAZALI.jpeg",
+      "bio": ""
     },
     {
       "name": "Mohand Bacha",
       "title": "Interoperability Expert",
-      "organization": "NUMiH France"
+      "organization": "NUMiH France",
+      "image": "/speakers/Mohand_Bacha.webp",
+      "bio": ""
     },
     {
-      "name": "Antonio Iglesias",
-      "title": "Healthcare Solutions Architect",
-      "organization": "SIVSA"
-    },
-    {
-      "name": "Izhar Mahjoub",
-      "title": "MOHIM Project Lead",
-      "organization": "MOHIM"
-    },
-    {
-      "name": "Souleymane Thiam",
-      "title": "IHE Technical Expert",
-      "organization": "IHE"
-    },
-    {
-      "name": "Yacine Tamoudi",
-      "title": "Interoperability Consultant",
-      "organization": "IHE / Gazelle"
+      "name": "Alexander Berler",
+      "title": "IHE Expert",
+      "organization": "IHE Europe",
+      "image": "/speakers/Alexander_Berler.webp",
+      "bio": ""
     },
     {
       "name": "Mourad Lyoubi",
       "title": "Enterprise Imaging Specialist",
-      "organization": "Siemens Healthineers"
-    },
-    {
-      "name": "Jordi Piera Jimenez",
-      "title": "Digital Health Director",
-      "organization": "CatSalut - Spain"
-    },
-    {
-      "name": "Omar Sefiani",
-      "title": "Pharmacy Solutions Expert",
-      "organization": "Sophatel / Blink"
-    },
-    {
-      "name": "Abdellah Tazi",
-      "title": "Healthcare IT Specialist",
-      "organization": "Sobrus"
-    },
-    {
-      "name": "Mehdi Khaled",
-      "title": "Healthcare Solutions Expert",
-      "organization": "Enovacom"
-    },
-    {
-      "name": "Nizar Belhadj",
-      "title": "Connected Medical Office Specialist",
-      "organization": "NABADY"
-    },
-    {
-      "name": "Belhaj ELGRAINI",
-      "title": "Health Data Hosting Expert",
-      "organization": "MDC Morocco"
-    },
-    {
-      "name": "Achraf El Ghezali",
-      "title": "Medical Practice Management Expert",
-      "organization": "PRATISOFT"
+      "organization": "Siemens Healthineers",
+      "image": "/speakers/Mourad_Lyoubi.jpeg",
+      "bio": ""
     },
     {
       "name": "Ali Sami",
       "title": "Pharmacy Registry Specialist",
-      "organization": "BLINKPHARMA"
+      "organization": "BLINKPHARMA",
+      "image": "/speakers/Ali_Sami.jpeg",
+      "bio": ""
+    },
+    {
+      "name": "Pr Anass Doukkali",
+      "title": "Professor",
+      "organization": "Ministry / Official",
+      "image": "/speakers/Anass_Doukkali.jpeg",
+      "bio": ""
+    },
+    {
+      "name": "Antonio Iglesias",
+      "title": "Healthcare Solutions Architect",
+      "organization": "SIVSA",
+      "image": "/speakers/Antonio_Iglesias.jpeg",
+      "bio": ""
     },
     {
       "name": "H. Tajjiou",
       "title": "Cloud Pharmacy Solutions",
-      "organization": "SOPHATEL"
+      "organization": "SOPHATEL",
+      "image": "/speakers/Houssam_Tajjiou.jpeg",
+      "bio": ""
+    },
+    {
+      "name": "Izhar Mahjoub",
+      "title": "MOHIM Project Lead",
+      "organization": "MOHIM",
+      "image": "/speakers/Izhar_Mahjoub.jpeg",
+      "bio": ""
+    },
+    {
+      "name": "John Rayner",
+      "title": "HIMSS EMRAM Expert",
+      "organization": "HIMSS",
+      "image": "/speakers/John_Rayner.png",
+      "bio": ""
+    },
+    {
+      "name": "Jordi Piera Jimenez",
+      "title": "Digital Health Director",
+      "organization": "CatSalut - Spain",
+      "image": "/speakers/Jordi_Piera_Jimenez.png",
+      "bio": ""
+    },
+    {
+      "name": "Omar Sefiani",
+      "title": "Pharmacy Solutions Expert",
+      "organization": "Sophatel / Blink",
+      "image": "/speakers/Omar_Sefiani.jpeg",
+      "bio": ""
+    },
+    {
+      "name": "Souleymane Thiam",
+      "title": "IHE Technical Expert",
+      "organization": "IHE",
+      "image": "/speakers/Souleymane_Thiam.jpeg",
+      "bio": ""
+    },
+    {
+      "name": "Yacine Tamoudi",
+      "title": "Interoperability Consultant",
+      "organization": "IHE / Gazelle",
+      "image": "/speakers/Yacine_Tamoudi.jpeg",
+      "bio": ""
     },
     {
       "name": "Zakaria Naciri",
       "title": "Medical Devices Interoperability",
-      "organization": "OMNIDOC"
+      "organization": "OMNIDOC",
+      "image": "/speakers/Zakaria_Naciri.jpeg",
+      "bio": ""
     }
   ],
   "agenda": [
