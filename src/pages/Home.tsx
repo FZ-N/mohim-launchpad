@@ -81,9 +81,10 @@ const Home = () => {
               {/* Cropped video */}
               <div className="h-40 md:h-56 overflow-hidden">
                 <iframe
-                  src="https://drive.google.com/file/d/1aI0TWMh95UQmM7uhkMwJZUxxALVtcswP/preview"
-                  className="w-full h-full scale-125 translate-y-[-10%] pointer-events-none"
-                  allow="autoplay; fullscreen"
+                src="https://www.youtube.com/embed/-zk-hePIcO4?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=-zk-hePIcO4"
+                className="w-full h-full scale-125 translate-y-[-10%] pointer-events-none"
+                allow="autoplay; fullscreen"
+                allowFullScreen
                 />
               </div>
 
