@@ -3,7 +3,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { Globe, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import mohimLogo from '@/assets/mohim-logo.png'; // Mohim logo (if you want to keep it too)
 import iheCatalystLogo from '@/assets/ihe-catalyst-logo.jpg'; // Catalyst logo
 
 export const Navigation = () => {
@@ -20,14 +19,14 @@ export const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+          {/* Logo - Only Catalyst Logo */}
           <NavLink to="/" className="flex items-center space-x-4">
             <img src={iheCatalystLogo} alt="IHE Catalyst Logo" className="h-14 w-auto" />
-            {/* If you want to display the name along with the logo */}
-            <span className="font-bold text-xl text-foreground hidden sm:inline">IHE Catalyst</span>
+            {/* If you want to display a name alongside the logo, uncomment this */}
+            {/* <span className="font-bold text-xl text-foreground hidden sm:inline">IHE Catalyst</span> */}
           </NavLink>
 
           {/* Desktop Navigation */}
@@ -71,7 +70,7 @@ export const Navigation = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-background border-t border-border">
+        <div className="md:hidden bg-white border-t border-border">
           <div className="container mx-auto px-4 py-4 space-y-2">
             {navLinks.map((link) => (
               <NavLink
