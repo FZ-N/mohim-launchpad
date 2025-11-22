@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Globe, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import mohimLogo from '@/assets/mohim_logo.jpeg'; // Mohim logo
-import iheCatalystLogo from '@/assets/ihe-catalyst-logo.jpg'; // Catalyst logo
+
 
 export const Navigation = () => {
   const { language, toggleLanguage, t } = useLanguage();
@@ -27,8 +27,6 @@ export const Navigation = () => {
           <NavLink to="/" className="flex items-center space-x-4">
             {/* Mohim Logo */}
             <img src={mohimLogo} alt="MOHIM Logo" className="h-14 w-auto" />
-            {/* Catalyst Logo */}
-            <img src={iheCatalystLogo} alt="IHE Catalyst Logo" className="h-14 w-auto" />
           </NavLink>
 
           {/* Desktop Navigation */}
