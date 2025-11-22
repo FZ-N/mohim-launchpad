@@ -64,6 +64,7 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
+    // Check for required consent checkboxes
     if (!formData.consentTerms || !formData.consentData) {
       toast({
         title: language === 'fr' ? 'Erreur' : 'Error',
@@ -72,7 +73,7 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
           : 'Please accept the required terms',
         variant: 'destructive',
       });
-      return;
+      return; // Prevent form submission and keep the dialog open
     }
 
     try {
@@ -133,6 +134,7 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
         consentNewsletter: false,
       });
       
+      // Optionally, close the form after successful submission
       onOpenChange(false);
     } catch (error) {
       console.error("Error submitting form:", error);
@@ -474,7 +476,7 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
                     onCheckedChange={(checked) => setFormData({ ...formData, serviceAudit: checked as boolean })}
                   />
                   <label htmlFor="service-audit" className="text-sm cursor-pointer">
-                    {language === 'fr' ? 'Audit EMRAM / accompagnement CHU' : 'EMRAM Audit / Medical Center Support'}
+                    {language === 'fr' ? 'Audit' : 'Audit'}
                   </label>
                 </div>
                 
@@ -485,43 +487,45 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
                     onCheckedChange={(checked) => setFormData({ ...formData, serviceConsulting: checked as boolean })}
                   />
                   <label htmlFor="service-consulting" className="text-sm cursor-pointer">
-                    {language === 'fr' ? 'AMOA / Conseil stratégique' : 'Strategic Consulting / Advisory'}
+                    {language === 'fr' ? 'Consulting' : 'Consulting'}
                   </label>
                 </div>
               </div>
             </div>
 
-            {/* Section 5: Billing */}
+            {/* Section 5: Billing Information */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-foreground">
-                {language === 'fr' ? '5. Facturation' : '5. Billing'}
+                {language === 'fr' ? '5. Informations de facturation' : '5. Billing Information'}
               </h3>
               
               <div>
                 <Label htmlFor="companyName">
-                  {language === 'fr' ? 'Raison sociale' : 'Company Name'}
+                  {language === 'fr' ? 'Nom de la société *' : 'Company Name *'}
                 </Label>
                 <Input
                   id="companyName"
                   value={formData.companyName}
                   onChange={(e) => setFormData({ ...formData, companyName: e.target.value })}
+                  required
                 />
               </div>
-              
+
               <div>
                 <Label htmlFor="address">
-                  {language === 'fr' ? 'Adresse' : 'Address'}
+                  {language === 'fr' ? 'Adresse *' : 'Address *'}
                 </Label>
                 <Input
                   id="address"
                   value={formData.address}
                   onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                  required
                 />
               </div>
-              
+
               <div>
                 <Label htmlFor="taxId">
-                  {language === 'fr' ? 'ICE / Identifiant fiscal' : 'Tax ID / ICE'}
+                  {language === 'fr' ? 'Identifiant fiscal' : 'Tax ID'}
                 </Label>
                 <Input
                   id="taxId"
@@ -529,27 +533,16 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
                   onChange={(e) => setFormData({ ...formData, taxId: e.target.value })}
                 />
               </div>
-              
+
               <div>
-                <Label>{language === 'fr' ? 'Mode de paiement' : 'Payment Method'}</Label>
-                <div className="space-y-2 mt-2">
-                  {[
-                    { value: 'transfer', label: language === 'fr' ? 'Virement' : 'Bank Transfer' },
-                    { value: 'card', label: language === 'fr' ? 'Carte bancaire' : 'Credit Card' },
-                    { value: 'order', label: language === 'fr' ? 'Ordre de mission' : 'Mission Order' },
-                  ].map((method) => (
-                    <div key={method.value} className="flex items-center space-x-2">
-                      <Checkbox
-                        id={method.value}
-                        checked={formData.paymentMethod === method.value}
-                        onCheckedChange={() => setFormData({ ...formData, paymentMethod: method.value })}
-                      />
-                      <label htmlFor={method.value} className="text-sm cursor-pointer">
-                        {method.label}
-                      </label>
-                    </div>
-                  ))}
-                </div>
+                <Label htmlFor="paymentMethod">
+                  {language === 'fr' ? 'Méthode de paiement' : 'Payment Method'}
+                </Label>
+                <Input
+                  id="paymentMethod"
+                  value={formData.paymentMethod}
+                  onChange={(e) => setFormData({ ...formData, paymentMethod: e.target.value })}
+                />
               </div>
             </div>
 
@@ -559,49 +552,43 @@ export const PartnershipForm = ({ open, onOpenChange }: PartnershipFormProps) =>
                 {language === 'fr' ? '6. Consentement' : '6. Consent'}
               </h3>
               
-              <div className="space-y-3">
-                <div className="flex items-start space-x-2">
-                  <Checkbox
-                    id="consent-terms"
-                    checked={formData.consentTerms}
-                    onCheckedChange={(checked) => setFormData({ ...formData, consentTerms: checked as boolean })}
-                    required
-                  />
-                  <label htmlFor="consent-terms" className="text-sm cursor-pointer">
-                    {language === 'fr' ? 'J\'accepte les conditions d\'adhésion MOHIM *' : 'I accept the MOHIM membership terms *'}
-                  </label>
-                </div>
-                
-                <div className="flex items-start space-x-2">
-                  <Checkbox
-                    id="consent-data"
-                    checked={formData.consentData}
-                    onCheckedChange={(checked) => setFormData({ ...formData, consentData: checked as boolean })}
-                    required
-                  />
-                  <label htmlFor="consent-data" className="text-sm cursor-pointer">
-                    {language === 'fr' ? 'J\'autorise le traitement de mes données (CNDP / GDPR) *' : 'I authorize the processing of my data (CNDP / GDPR) *'}
-                  </label>
-                </div>
-                
-                <div className="flex items-start space-x-2">
-                  <Checkbox
-                    id="consent-newsletter"
-                    checked={formData.consentNewsletter}
-                    onCheckedChange={(checked) => setFormData({ ...formData, consentNewsletter: checked as boolean })}
-                  />
-                  <label htmlFor="consent-newsletter" className="text-sm cursor-pointer">
-                    {language === 'fr' ? 'Je souhaite recevoir la newsletter MOHIM' : 'I would like to receive the MOHIM newsletter'}
-                  </label>
-                </div>
+              <div className="flex items-center space-x-2">
+                <Checkbox
+                  id="consentTerms"
+                  checked={formData.consentTerms}
+                  onCheckedChange={(checked) => setFormData({ ...formData, consentTerms: checked as boolean })}
+                />
+                <label htmlFor="consentTerms" className="text-sm cursor-pointer">
+                  {language === 'fr' ? 'J\'accepte les termes et conditions' : 'I accept the terms and conditions'}
+                </label>
+              </div>
+              
+              <div className="flex items-center space-x-2">
+                <Checkbox
+                  id="consentData"
+                  checked={formData.consentData}
+                  onCheckedChange={(checked) => setFormData({ ...formData, consentData: checked as boolean })}
+                />
+                <label htmlFor="consentData" className="text-sm cursor-pointer">
+                  {language === 'fr' ? 'J\'accepte le traitement de mes données' : 'I consent to the processing of my data'}
+                </label>
+              </div>
+              
+              <div className="flex items-center space-x-2">
+                <Checkbox
+                  id="consentNewsletter"
+                  checked={formData.consentNewsletter}
+                  onCheckedChange={(checked) => setFormData({ ...formData, consentNewsletter: checked as boolean })}
+                />
+                <label htmlFor="consentNewsletter" className="text-sm cursor-pointer">
+                  {language === 'fr' ? 'Je souhaite recevoir la newsletter' : 'I wish to receive the newsletter'}
+                </label>
               </div>
             </div>
 
-            <div className="flex justify-end space-x-4 pt-4">
-              <Button type="button" variant="outline" onClick={() => onOpenChange(false)}>
-                {language === 'fr' ? 'Annuler' : 'Cancel'}
-              </Button>
-              <Button type="submit">
+            {/* Submit Button */}
+            <div className="mt-6 flex justify-end">
+              <Button type="submit" className="w-full md:w-auto">
                 {language === 'fr' ? 'Soumettre' : 'Submit'}
               </Button>
             </div>
