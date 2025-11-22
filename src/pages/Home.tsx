@@ -140,8 +140,8 @@ const Home = () => {
               health infrastructure meets world-class standards for security and clinical effectiveness.
             </p>
             <div className="flex items-center gap-4 pt-4 border-t border-border">
-              <img src={himssLogo} alt="HIMSS" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
-              <img src={emramLogo} alt="EMRAM" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+              <img src={himssLogo} alt="HIMSS" className="h-32 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+              <img src={emramLogo} alt="EMRAM" className="h-32 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
             </div>
             </div>
 
