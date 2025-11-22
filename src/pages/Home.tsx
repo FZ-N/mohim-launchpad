@@ -4,6 +4,7 @@ import { ArrowRight, Shield, Network, Heart, PlayCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import heroImage from '@/assets/hero-interoperability.jpg';
 import himssLogo from '@/assets/himss-logo.png';
+import iheCatalystLogo from '@/assets/ihe-catalyst-logo.jpg'; // Catalyst logo
 import emramLogo from '@/assets/emram-logo.jpeg';
 
 const Home = () => {
@@ -138,8 +139,11 @@ const Home = () => {
               health infrastructure meets world-class standards for security and clinical effectiveness.
             </p>
             <div className="flex items-center gap-4 pt-4 border-t border-border">
+                 <img src={iheCatalystLogo} alt=" iheCatalystLogo" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+           
               <img src={himssLogo} alt="HIMSS" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
               <img src={emramLogo} alt="EMRAM" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+           
             </div>
             </div>
 
