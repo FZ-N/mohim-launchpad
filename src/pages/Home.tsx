@@ -122,6 +122,10 @@ const Home = () => {
               alignment with HIMSS interoperability maturity frameworks, making every system connected, compliant, 
               and ready for cross-border health data sharing.
             </p>
+                 <div className="flex items-center gap-4 pt-4 border-t border-border">
+                 <img src={iheCatalystLogo} alt=" iheCatalystLogo" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+          
+            </div>
             </div>
 
             {/* Feature 2 */}
@@ -139,8 +143,6 @@ const Home = () => {
               health infrastructure meets world-class standards for security and clinical effectiveness.
             </p>
             <div className="flex items-center gap-4 pt-4 border-t border-border">
-                 <img src={iheCatalystLogo} alt=" iheCatalystLogo" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
-           
               <img src={himssLogo} alt="HIMSS" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
               <img src={emramLogo} alt="EMRAM" className="h-16 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
            
