@@ -72,10 +72,10 @@
       "bio": ""
     },
     {
-      "name": "Jordi Piera Jimenez",
-      "title": "Digital Health Director",
-      "organization": "CatSalut - Spain",
-      "image": "/speakers/Jordi_Piera_Jimenez.png",
+      "name": "Solans Oscar",
+      "title": "Director of Funtional Strategy in Digital Health Care",
+      "organization": " The Ministry of Health of Catalonia Spain",
+      "image": "/speakers/Oscar.jpeg",
       "bio": ""
     },
     {
@@ -219,7 +219,7 @@
         {
           "time": "1:00 PM - 1:30 PM",
           "title": "Current Interoperability Situation in Spain and Future Directions",
-          "speaker": "Jordi Piera Jimenez (CatSalut)",
+          "speaker": "Oscar SOLANS",
           "location": "MOHIM - Stand"
         },
         {
