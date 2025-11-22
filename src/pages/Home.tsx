@@ -112,12 +112,15 @@ const Home = () => {
               <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
                 <Network className="w-6 h-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Interoperability Standards (HL7, IHE, IPS)
-              </h3>
-              <p className="text-muted-foreground">
-                Design and implementation of HL7 FHIR, IHE profiles, and the International Patient Summary (IPS) to enable secure, interoperable data exchange and alignment with HIMSS interoperability maturity frameworks.
-              </p>
+            <h3 className="text-xl font-bold text-foreground mb-3">
+              Global Interoperability Standards
+            </h3>
+            <p className="text-muted-foreground">
+              Comprehensive implementation of HL7 FHIR, IHE profiles, and the International Patient Summary (IPS) 
+              to enable secure, seamless data exchange across Morocco&apos;s healthcare ecosystem. MOHIM ensures 
+              alignment with HIMSS interoperability maturity frameworks, making every system connected, compliant, 
+              and ready for cross-border health data sharing.
+            </p>
             </div>
 
             {/* Feature 2 */}
@@ -125,12 +128,15 @@ const Home = () => {
               <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-secondary/20 transition-colors">
                 <Shield className="w-6 h-6 text-secondary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Digital Trust, Security & Maturity
-              </h3>
-              <p className="text-muted-foreground">
-                PKI-based security, IHE security and privacy profiles, and HIMSS EMRAM-aligned assessments ensure end-to-end data integrity, auditability, and patient privacy across the health ecosystem.
-              </p>
+            <h3 className="text-xl font-bold text-foreground mb-3">
+              Digital Trust, Security & EMRAM Maturity
+            </h3>
+            <p className="text-muted-foreground">
+              MOHIM implements PKI-based digital trust, IHE security and privacy profiles, and conducts rigorous 
+              HIMSS EMRAM assessments to measure and advance EMR adoption maturity. These frameworks guarantee 
+              end-to-end data integrity, auditability, and patient privacy—ensuring that Morocco&apos;s digital 
+              health infrastructure meets world-class standards for security and clinical effectiveness.
+            </p>
             </div>
 
             {/* Feature 3 */}
@@ -138,12 +144,15 @@ const Home = () => {
               <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
                 <Heart className="w-6 h-6 text-accent" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">
-                Collaborative Innovation Hub
-              </h3>
-              <p className="text-muted-foreground">
-                A national and international innovation hub connecting public institutions, hospitals, startups, universities, and global partners (HIMSS, IHE, HL7) to co-design, test, and validate interoperable digital health solutions.
-              </p>
+            <h3 className="text-xl font-bold text-foreground mb-3">
+              National & International Innovation Hub
+            </h3>
+            <p className="text-muted-foreground">
+              MOHIM serves as Morocco&apos;s premier platform for digital health innovation—connecting public 
+              institutions, hospitals, startups, universities, and global partners including HIMSS, IHE, and HL7. 
+              Through projectathons, sandboxes, and collaborative testing environments, stakeholders co-design, 
+              validate, and scale interoperable solutions that advance patient care and operational excellence.
+            </p>
             </div>
           </div>
         </div>
