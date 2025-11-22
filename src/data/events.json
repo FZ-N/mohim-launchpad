@@ -250,68 +250,41 @@
       "date": "November 27, 2025",
       "theme": "Creating and Operating an HIE",
       "sessions": [
-        {
-          "time": "9:00 AM - 9:30 AM",
-          "title": "Health Data Hosting in Morocco and MDC Standards",
-          "speaker": "Belhaj ELGRAINI",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "9:45 AM - 10:15 AM",
-          "title": "Healthcare Facilities Vulnerability to Cybersecurity Threats",
-          "speaker": "NUCLEON",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "10:30 AM - 11:15 AM",
-          "title": "National and Regional Interoperability - National and Regional HIEs: Spain, GCC PAHO",
-          "speaker": "Alexander Berler, Antonio Iglesias, Mourad Lyoubi (SIEMENS, kaikai, SIVSA)",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "11:30 AM - 12:00 PM",
-          "title": "Patient at the Center of Medical Office Management",
-          "speaker": "Achraf El Ghezali (PRATISOFT)",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "12:15 PM - 12:45 PM",
-          "title": "Drug Registry and IHE Profiles",
-          "speaker": "Ali Sami (BLINKPHARMA)",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "1:00 PM - 1:30 PM",
-          "title": "Roadmap Towards a Projectathon in Morocco / Africa",
-          "speaker": "Alexander Berler, Yacine Tamoudi",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "1:40 PM - 2:00 PM",
-          "title": "Cloud Pharmacy Solution and HIE Connection",
-          "speaker": "H. Tajjiou (SOPHATEL)",
-          "location": "Technical Demo Area"
-        },
-        {
-          "time": "2:00 PM - 2:45 PM",
-          "title": "OMNIDOC: Medical Devices Interoperability - Connected Ambulances",
-          "speaker": "Zakaria Naciri",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "2:45 PM - 3:15 PM",
-          "title": "Gazelle Tools Demo for HIE IPS, HAJJ and FSE Use Cases",
-          "speaker": "Souleymane Thiam",
-          "location": "Technical Demo Area"
-        },
-        {
-          "time": "3:30 PM - 4:45 PM",
-          "title": "Launch of MOHIM Governance Working Group",
-          "speaker": "Alexander Berler, Yacine Tamoudi, Izhar Mahjoub",
-          "description": "Discussion Points: 1. MOHIM Roadmap 2. Use Cases List 3. Methodology Definition 4. Governance Context Definition",
-          "location": "MOHIM - Stand"
-        }
-      ]
+
+          {
+    "time": "10:30 AM - 11:15 AM",
+    "title": "Le registre du medicament et les profils IHE",
+    "speaker": "Ali Sami",
+    "location": "MOHIM - Stand"
+  },
+  {
+    "time": "11:30 AM - 12:00 PM",
+    "title": "Solution Pharmacie en Cloud et connection a un HIE",
+    "speaker": "h.tajjiou",
+    "location": "SOPHATEL"
+  },
+  {
+    "time": "12:15 PM - 12:45 PM",
+    "title": "OMNIDOC INTEROPERABILITE DES MEDICAL DEVICES : LES AMBULACES CONNECTEES",
+    "speaker": "Zakaria Naciri",
+    "location": "MOHIM - Stand"
+  },
+  {
+    "time": "1:40 PM - 2:00 PM",
+    "title": "Demonstration outils Gazelle pour le cas d'usage HIE IPS HAJJ ET FSE",
+    "speaker": "Souleymane Thiam",
+    "location": "MOHIM - Stand"
+  },
+  {
+    "time": "2:45 PM - 3:30 PM",
+    "title": "Lancement du groupe de travail de la gouvernance de MOHIM. Point de discussion",
+    "speaker": "Alexandre Berler, Yacine Tamoudi, Izhar Mahjoub",
+    "location": "MOHIM - Stand"
+  }
+
+
+        
+              ]
     }
   ]
 }
