@@ -189,8 +189,136 @@ const About = () => {
         </div>
       </section>
 
-      {/* Partners Section */}
+      {/* Lab Services Section */}
       <section className="py-24 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
+                {t('lab.title')}
+              </h2>
+              <p className="text-primary font-semibold text-xl">{t('lab.subtitle')}</p>
+            </div>
+
+            {/* Training and Certification */}
+            <div className="mb-16 bg-card border border-border rounded-2xl p-8 md:p-12 shadow-sm">
+              <div className="mb-6">
+                <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+                  {t('lab.training.title')}
+                </h3>
+                <p className="text-primary font-medium text-lg">{t('lab.training.subtitle')}</p>
+              </div>
+              <div className="space-y-4">
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  {t('lab.training.desc1')}
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  {t('lab.training.desc2')}
+                </p>
+              </div>
+            </div>
+
+            {/* Assessment */}
+            <div className="mb-16 bg-card border border-border rounded-2xl p-8 md:p-12 shadow-sm">
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                {t('lab.assessment.title')}
+              </h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4">
+                  <div className="w-2 h-2 bg-trust rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {t('lab.assessment.desc1')}
+                  </p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-2 h-2 bg-trust rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {t('lab.assessment.desc2')}
+                  </p>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-2 h-2 bg-trust rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {t('lab.assessment.desc3')}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Needs of Health System */}
+            <div className="mb-16 bg-card border border-border rounded-2xl p-8 md:p-12 shadow-sm">
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                {t('lab.needs.title')}
+              </h3>
+              <div className="space-y-4">
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  {t('lab.needs.desc1')}
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  {t('lab.needs.desc2')}
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed font-medium text-foreground">
+                  {t('lab.needs.desc3')}
+                </p>
+              </div>
+            </div>
+
+            {/* Strategic Axes */}
+            <div className="mb-16 bg-gradient-to-br from-primary/5 to-secondary/5 border border-border rounded-2xl p-8 md:p-12">
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">
+                {t('lab.strategic.title')}
+              </h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {t('lab.strategic.axis1')}
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {t('lab.strategic.axis2')}
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {t('lab.strategic.axis3')}
+                  </p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    {t('lab.strategic.axis4')}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Key Asset */}
+            <div className="bg-card border border-border rounded-2xl p-8 md:p-12 shadow-sm">
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
+                {t('lab.asset.title')}
+              </h3>
+              <div className="space-y-4">
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  {t('lab.asset.desc1')}
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  {t('lab.asset.desc2')}
+                </p>
+                <p className="text-lg text-foreground leading-relaxed font-medium">
+                  {t('lab.asset.desc3')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Partners Section */}
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground text-center mb-4">
