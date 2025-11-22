@@ -132,29 +132,30 @@ const About = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-12">
-              <img 
-                src={emramLogo} 
-                alt="EMRAM Stage 7 - HIMSS Electronic Medical Record Adoption Model"
-                className="w-80 mx-auto mb-8"
-              />
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-                EMRAM: Measuring Digital Health Maturity
-              </h2>
-              <p className="text-primary font-medium text-lg">The Global Standard for EMR Excellence</p>
-            </div>
-            
-            <div className="bg-gradient-to-br from-primary/5 to-secondary/5 border border-border rounded-2xl p-8 md:p-12 mb-8">
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                The <strong className="text-foreground">HIMSS Electronic Medical Record Adoption Model (EMRAM)</strong> is 
-                an internationally recognized, eight-stage (0–7) framework that evaluates how effectively healthcare 
-                organizations leverage electronic medical records to enhance patient care, operational efficiency, and clinical outcomes.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                EMRAM assessments measure capabilities across data capture, clinical decision support, closed-loop medication 
-                management, analytics, and interoperability. Achieving higher EMRAM stages—particularly Stage 6 and Stage 7—demonstrates 
-                world-class digital health maturity and a commitment to evidence-based, patient-centered care.
-              </p>
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+              <div className="order-2 md:order-1">
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                  EMRAM: Measuring Digital Health Maturity
+                </h2>
+                <p className="text-primary font-medium text-lg mb-4">The Global Standard for EMR Excellence</p>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                  The <strong className="text-foreground">HIMSS Electronic Medical Record Adoption Model (EMRAM)</strong> is 
+                  an internationally recognized, eight-stage (0–7) framework that evaluates how effectively healthcare 
+                  organizations leverage electronic medical records to enhance patient care, operational efficiency, and clinical outcomes.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  EMRAM assessments measure capabilities across data capture, clinical decision support, closed-loop medication 
+                  management, analytics, and interoperability. Achieving higher EMRAM stages—particularly Stage 6 and Stage 7—demonstrates 
+                  world-class digital health maturity and a commitment to evidence-based, patient-centered care.
+                </p>
+              </div>
+              <div className="order-1 md:order-2">
+                <img 
+                  src={emramLogo} 
+                  alt="EMRAM Stage 7 - HIMSS Electronic Medical Record Adoption Model"
+                  className="w-80 mx-auto"
+                />
+              </div>
             </div>
 
             <div className="bg-card border border-border rounded-2xl p-8 md:p-12">
