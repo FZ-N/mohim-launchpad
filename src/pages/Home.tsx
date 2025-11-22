@@ -74,9 +74,7 @@ const Home = () => {
               <h2 className="text-2xl md:text-3xl font-bold text-foreground">
                 Discover the MOHIM Journey
               </h2>
-              <span className="text-sm text-muted-foreground hidden sm:inline">
-                Click to watch the full video on the About page
-              </span>
+      
             </div>
 
             <div className="relative rounded-2xl overflow-hidden border border-border shadow-xl">
