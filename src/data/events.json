@@ -109,7 +109,7 @@
     {
       "name": "Salma Nouchti",
       "title": "Product Owner",
-      "organization": "Nabady",
+      "organization": "MIBTECH",
       "image": "/speakers/Salma.jpeg",
       "bio": "Product Owner chez Nabady, orientée solution et spécialisée dans l’étude des besoins clients. J’accompagne les équipes à transformer les problématiques terrain en fonctionnalités claires et efficaces. Attentive aux retours utilisateurs, je contribue à définir des solutions digitales fiables et réellement utiles. Organisée et proactive, je veille à la cohérence et à la valeur ajoutée du produit."
     },
@@ -143,7 +143,7 @@
         {
           "time": "2:45 PM - 3:15 PM",
           "title": "Intra-Hospital Interoperability",
-          "speaker": "Mohand Bacha (NUMiH), Antonio Iglesias (SIVSA), MIBTECH",
+          "speaker": "Mohand Bacha (NUMiH), Antonio Iglesias (SIVSA), Salma Nouchti (MIBTECH)",
           "location": "MOHIM - Stand"
         },
         {
@@ -210,7 +210,7 @@
         {
           "time": "1:40 PM - 2:00 PM",
           "title": "Connected RIS",
-          "speaker": "eALPHAT",
+          "speaker": "Oumkaltoum EL MASLOHI (ALPHAT)",
           "location": "Technical Demo Area"
         },
         {
