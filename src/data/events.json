@@ -118,31 +118,30 @@
       "title": "Développeur confirmé",
       "organization": "Nabady",
       "image": "/speakers/Youness.jpeg",
-      "bio": "Développeur confirmé chez Nabady, j’interviens sur des problématiques d’interopérabilité entre systèmes, avec pour objectif la centralisation et la fluidification de l’accès à la donnée. Mon rôle consiste à concevoir et optimiser des architectures capables de faire communiquer des plateformes hétérogènes, afin d’améliorer la qualité, la cohérence et la disponibilité de l’information."},
+      "bio": "Développeur confirmé chez Nabady, j’interviens sur des problématiques d’interopérabilité entre systèmes, avec pour objectif la centralisation et la fluidification de l’accès à la donnée. Mon rôle consiste à concevoir et optimiser des architectures capables de faire communiquer des plateformes hétérogènes, afin d’améliorer la qualité, la cohérence et la disponibilité de l’information."
+    },
     {
-  "name": "EL MASLOHI Oumkaltoum",
-  "title": "CEO",
-  "organization": "Alphath",
-  "image": "/speakers/Oumkaltoum_ELMASLOHI.jpeg",
-  "bio": "Forte de plus de 15 ans d’expérience au sein des services de radiologie d’un centre de santé en zone sensible, Oumkaltoum EL MASLOHI s’est forgée une solide expertise, au plus près des besoins des patients et des professionnels. Animée par la conviction que l’accès aux soins et l’innovation numérique doivent aller de pair, elle a développé des solutions concrètes pour transformer la pratique médicale au quotidien. Passionnée par la technologie, elle s’est formée à la programmation informatique pour créer un logiciel de prise de rendez-vous en ligne et un système d’information radiologique (RIS), répondant aux défis spécifiques du terrain. Son engagement et sa vision entrepreneuriale ont été reconnus et soutenus via le programme Entrepreneurs dans la Ville, qui lui a permis de structurer et d’amplifier son projet. Aujourd’hui à la tête d’ALPHATH, Oumkaltoum accompagne les services d’imagerie médicale dans leur transformation digitale, offrant des outils sur-mesure pour faciliter la prise en charge des patients de A à Z, améliorer l’efficacité organisationnelle et soutenir l’accès aux soins pour tous, partout. Sa participation au Forum International de la e-Santé 2025 s’inscrit dans cette dynamique d’innovation collaborative pour faire converger les talents, les technologies et les expériences au service de la santé numérique en Afrique et à l’international."
-},
-
- {
-  "name": "Dr. Mehdi Khaled",
-  "title": "Former Global Chief Medical Officer",
-  "organization": "Oracle",
-  "image": "/speakers/Mehdi-Khaled.jpeg",
-  "bio": "Dr. Mehdi Khaled is an internist with over 25 years of experience across six continents. Trained to think in systems rather than silos, he brings an integrated perspective to healthcare transformation. His expertise spans policy frameworks, cultural dynamics, technological capabilities, and operational realities. As the former Global Chief Medical Officer at Oracle, he led initiatives ranging from hospital EMRs to national health exchanges. Dr. Khaled is also an advisor to governments and holds multiple patents in medical diagnostics. With a unique combination of clinical knowledge, strategic thinking, and a passion for technology, he has built health ecosystems that are both practical and sustainable. Fluent in six languages, Dr. Khaled understands that effective healthcare requires not only technical expertise but also a deep understanding of the people and cultures involved."
-},
- {
-  "name": "Amine Tazi",
-  "title": "Directeur General",
-  "organization": "Magica Software",
-  "image": "/speakers/Amine-Tazi.jpeg",
-   "bio": ""
-}
-
-],
+      "name": "EL MASLOHI Oumkaltoum",
+      "title": "CEO",
+      "organization": "Alphath",
+      "image": "/speakers/Oumkaltoum_ELMASLOHI.jpeg",
+      "bio": "Forte de plus de 15 ans d’expérience au sein des services de radiologie d’un centre de santé en zone sensible, Oumkaltoum EL MASLOHI s’est forgée une solide expertise, au plus près des besoins des patients et des professionnels. Animée par la conviction que l’accès aux soins et l’innovation numérique doivent aller de pair, elle a développé des solutions concrètes pour transformer la pratique médicale au quotidien. Passionnée par la technologie, elle s’est formée à la programmation informatique pour créer un logiciel de prise de rendez-vous en ligne et un système d’information radiologique (RIS), répondant aux défis spécifiques du terrain. Son engagement et sa vision entrepreneuriale ont été reconnus et soutenus via le programme Entrepreneurs dans la Ville, qui lui a permis de structurer et d’amplifier son projet. Aujourd’hui à la tête d’ALPHATH, Oumkaltoum accompagne les services d’imagerie médicale dans leur transformation digitale, offrant des outils sur-mesure pour faciliter la prise en charge des patients de A à Z, améliorer l’efficacité organisationnelle et soutenir l’accès aux soins pour tous, partout. Sa participation au Forum International de la e-Santé 2025 s’inscrit dans cette dynamique d’innovation collaborative pour faire converger les talents, les technologies et les expériences au service de la santé numérique en Afrique et à l’international."
+    },
+    {
+      "name": "Dr. Mehdi Khaled",
+      "title": "Former Global Chief Medical Officer",
+      "organization": "Oracle",
+      "image": "/speakers/Mehdi-Khaled.jpeg",
+      "bio": "Dr. Mehdi Khaled is an internist with over 25 years of experience across six continents. Trained to think in systems rather than silos, he brings an integrated perspective to healthcare transformation. His expertise spans policy frameworks, cultural dynamics, technological capabilities, and operational realities. As the former Global Chief Medical Officer at Oracle, he led initiatives ranging from hospital EMRs to national health exchanges. Dr. Khaled is also an advisor to governments and holds multiple patents in medical diagnostics. With a unique combination of clinical knowledge, strategic thinking, and a passion for technology, he has built health ecosystems that are both practical and sustainable. Fluent in six languages, Dr. Khaled understands that effective healthcare requires not only technical expertise but also a deep understanding of the people and cultures involved."
+    },
+    {
+      "name": "Amine Tazi",
+      "title": "Directeur General",
+      "organization": "Magica Software",
+      "image": "/speakers/Amine-Tazi.jpeg",
+      "bio": ""
+    }
+  ],
   "agenda": [
     {
       "day": "Day 1",
