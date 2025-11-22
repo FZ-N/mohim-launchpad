@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Shield, Network, Heart, PlayCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import heroImage from '@/assets/hero-interoperability.jpg';
+import himssLogo from '@/assets/himss-logo.png';
+import emramLogo from '@/assets/emram-logo.jpeg';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -131,12 +133,16 @@ const Home = () => {
             <h3 className="text-xl font-bold text-foreground mb-3">
               Digital Trust, Security & EMRAM Maturity
             </h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground mb-6">
               MOHIM implements PKI-based digital trust, IHE security and privacy profiles, and conducts rigorous 
               HIMSS EMRAM assessments to measure and advance EMR adoption maturity. These frameworks guarantee 
               end-to-end data integrity, auditability, and patient privacy—ensuring that Morocco&apos;s digital 
               health infrastructure meets world-class standards for security and clinical effectiveness.
             </p>
+            <div className="flex items-center gap-4 pt-4 border-t border-border">
+              <img src={himssLogo} alt="HIMSS" className="h-8 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+              <img src={emramLogo} alt="EMRAM" className="h-8 object-contain opacity-70 group-hover:opacity-100 transition-opacity" />
+            </div>
             </div>
 
             {/* Feature 3 */}
