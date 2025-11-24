@@ -264,42 +264,73 @@
       "day": "Day 3",
       "date": "November 27, 2025",
       "theme": "Creating and Operating an HIE",
-      "sessions": [
+      "sessions": 
 
-          {
+        
+          [
+  {
+    "time": "9:00 AM - 9:30 AM",
+    "title": "La vulnérabilité des établissements de soins face aux failles de Cyber sécurité NUCLEON",
+    "speaker": "NUCLEON",
+    "location": "Mohim - Stand"
+  },
+  {
+    "time": "9:45 AM - 10:15 AM",
+    "title": "L'interopérabilité au niveau national et régional - Les HIE nationaux et régionaux ",
+    "speaker": "Alexander Berler, Antonio Iglesias, Mourad Lyoubi, Nils",
+    "location": "Mohim - Stand"
+  },
+  {
     "time": "10:30 AM - 11:15 AM",
-    "title": "Le registre du medicament et les profils IHE",
-    "speaker": "Ali Sami",
-    "location": "MOHIM - Stand"
+    "title": "Le patient au centre de la gestion d'un cabinet médical PRATISOFT",
+    "speaker": "Achraf El Ghezali",
+    "location": "Mohim - Stand"
   },
   {
     "time": "11:30 AM - 12:00 PM",
-    "title": "Solution Pharmacie en Cloud et connection a un HIE",
-    "speaker": "Houssam Tajjiou",
-    "location": "SOPHATEL"
+    "title": "Le registre du médicament et les profils IHE BLINKPHARMA",
+    "speaker": "Ali Sami",
+    "location": "Mohim - Stand"
   },
   {
     "time": "12:15 PM - 12:45 PM",
-    "title": "OMNIDOC INTEROPERABILITE DES MEDICAL DEVICES : LES AMBULACES CONNECTEES",
-    "speaker": "Zakaria Naciri",
-    "location": "MOHIM - Stand"
+    "title": "Feuille de route vers un projectathon au Maroc / Afrique",
+    "speaker": "Alexandre Berler, Yacine Tamoudi",
+    "location": "Mohim - Stand"
+  },
+  {
+    "time": "1:00 PM - 1:30 PM",
+    "title": "Solution Pharmacie en Cloud et connexion à un HIE",
+    "speaker": "H. Tajjiou (SOPHATEL)",
+    "location": "Mohim - Stand"
   },
   {
     "time": "1:40 PM - 2:00 PM",
-    "title": "Demonstration outils Gazelle pour le cas d'usage HIE IPS HAJJ ET FSE",
-    "speaker": "Souleymane Thiam",
-    "location": "MOHIM - Stand"
+    "title": "OMNIDOC INTEROPÉRABILITÉ DES MÉDICAL DEVICES : LES AMBULANCES CONNECTÉES",
+    "speaker": "Zakaria Naciri",
+    "location": "Mohim - Stand"
   },
   {
-    "time": "2:45 PM - 3:30 PM",
-    "title": "Lancement du groupe de travail de la gouvernance de MOHIM. Point de discussion",
+    "time": "2:00 PM - 2:45 PM",
+    "title": "Démonstration outils Gazelle pour le cas d'usage HIE IPS HAJJ ET FSE",
+    "speaker": "Souleymane Thiam",
+    "location": "Mohim - Stand"
+  },
+  {
+    "time": "2:45 PM - 3:15 PM",
+    "title": "Lancement du groupe de travail de la gouvernance de MOHIM",
     "speaker": "Alexandre Berler, Yacine Tamoudi, Izhar Mahjoub",
-    "location": "MOHIM - Stand"
+    "location": "Mohim - Stand",
+    "details": [
+      "1. Feuille de route de MOHIM",
+      "2. Liste des cas d'usage",
+      "3. Définition de la méthodologie à utiliser",
+      "4. Définir le contexte de gouvernance"
+    ]
   }
+]
 
 
-        
-              ]
     }
   ]
 }
