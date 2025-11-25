@@ -14,7 +14,7 @@
   "name": "Tarek Bhija",
   "title": "Head of Product",
   "organization": "Sobrus",
-  "image": "tarik.png",
+  "image": "/speakers/tarik.png",
   "bio": {
     "short_bio": "Professionnel reconnu pour son rôle dans la transformation digitale du secteur médical. Il occupe le poste de Head of Product chez Sobrus, une plateforme innovante dédiée à l’écosystème pharmaceutique au Maroc. Grâce à son expertise en stratégie produit, en gestion de projets complexes et en leadership d’équipes pluridisciplinaires, Tarek a contribué au déploiement de solutions technologiques favorisant la digitalisation du parcours pharmaceutique pour les pharmaciens, laboratoires et grossistes.",
     "detailed_bio": "Son parcours démontre une grande capacité à piloter des transformations d'envergure et générer de la croissance mesurable. En tant que Directeur eCommerce chez Miele, il a dirigé la digitalisation des plateformes eCommerce dans 50+ pays avec une croissance à double chiffre. En tant que Directeur Marketing et Business chez Philips, il a orchestré la transformation de la division Personal Health, supervisant le passage à un business médical certifié EU MDR/FDA à l'échelle mondiale.",
@@ -253,7 +253,7 @@
         {
           "time": "2:00 PM - 2:45 PM",
           "title": "From Medical Prescription to Drug Dispensation",
-          "speaker": "Omar Sefiani (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
+          "speaker": "Tarik Bhija (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
           "location": "MOHIM - Stand"
         },
         {
