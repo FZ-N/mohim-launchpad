@@ -1,5 +1,4 @@
 {
-  
   "speakers": [
     {
       "name": "Achraf El Ghezali",
@@ -8,27 +7,24 @@
       "image": "/speakers/ACHRAF_GHAZALI.jpeg",
       "bio": ""
     },
-
-{
-  "name": "Tarek Bhija",
-  "title": "Head of Product",
-  "organization": "Sobrus",
-  "image": "/speakers/tarik.png",
-  "bio": {
-    "short_bio": "Professionnel reconnu pour son rôle dans la transformation digitale du secteur médical. Il occupe le poste de Head of Product chez Sobrus, une plateforme innovante dédiée à l’écosystème pharmaceutique au Maroc. Grâce à son expertise en stratégie produit, en gestion de projets complexes et en leadership d’équipes pluridisciplinaires, Tarek a contribué au déploiement de solutions technologiques favorisant la digitalisation du parcours pharmaceutique pour les pharmaciens, laboratoires et grossistes.",
-    "detailed_bio": "Son parcours démontre une grande capacité à piloter des transformations d'envergure et générer de la croissance mesurable. En tant que Directeur eCommerce chez Miele, il a dirigé la digitalisation des plateformes eCommerce dans 50+ pays avec une croissance à double chiffre. En tant que Directeur Marketing et Business chez Philips, il a orchestré la transformation de la division Personal Health, supervisant le passage à un business médical certifié EU MDR/FDA à l'échelle mondiale.",
-    "approach": "Son approche combine stratégie produit, automatisation et data intelligence pour faciliter le parcours des professionnels de santé et encourager l'innovation dans le secteur digital marocain."
-  }
-},
- {
-      "name": "Nizar BELMAHFOUD ",
+    {
+      "name": "Tarek Bhija",
+      "title": "Head of Product",
+      "organization": "Sobrus",
+      "image": "/speakers/tarik.png",
+      "bio": {
+        "short_bio": "Professionnel reconnu pour son rôle dans la transformation digitale du secteur médical. Il occupe le poste de Head of Product chez Sobrus, une plateforme innovante dédiée à l’écosystème pharmaceutique au Maroc. Grâce à son expertise en stratégie produit, en gestion de projets complexes et en leadership d’équipes pluridisciplinaires, Tarek a contribué au déploiement de solutions technologiques favorisant la digitalisation du parcours pharmaceutique pour les pharmaciens, laboratoires et grossistes.",
+        "detailed_bio": "Son parcours démontre une grande capacité à piloter des transformations d'envergure et générer de la croissance mesurable. En tant que Directeur eCommerce chez Miele, il a dirigé la digitalisation des plateformes eCommerce dans 50+ pays avec une croissance à double chiffre. En tant que Directeur Marketing et Business chez Philips, il a orchestré la transformation de la division Personal Health, supervisant le passage à un business médical certifié EU MDR/FDA à l'échelle mondiale.",
+        "approach": "Son approche combine stratégie produit, automatisation et data intelligence pour faciliter le parcours des professionnels de santé et encourager l'innovation dans le secteur digital marocain."
+      }
+    },
+    {
+      "name": "Nizar BELMAHFOUD",
       "title": "CTO/CMO",
       "organization": "Nabady",
       "image": "/speakers/Nizar.jpeg",
       "bio": ""
     },
-    
-    
     {
       "name": "Mohand Bacha",
       "title": "Interoperability Expert",
@@ -36,12 +32,12 @@
       "image": "/speakers/Mohand_Bacha.webp",
       "bio": ""
     },
-     {
+    {
       "name": "Jean-Baptiste DUBUISSON",
       "title": "Directeur Business Enovacom",
-      "organization": "Enovavom",
+      "organization": "Enovacom",
       "image": "/speakers/JBD.jpg",
-      "bio": "Engagé depuis 20 ans dans la distribution de solutions logicielles facilitant et sécurisant l'interopérabilité des systèmes d'information de santé, je me concentre aujourd'hui sur la promotion de l'expertise de la société Enovacom en dehors de la France et en partenariat avec les grands acteurs du marché. "
+      "bio": "Engagé depuis 20 ans dans la distribution de solutions logicielles facilitant et sécurisant l'interopérabilité des systèmes d'information de santé, je me concentre aujourd'hui sur la promotion de l'expertise de la société Enovacom en dehors de la France et en partenariat avec les grands acteurs du marché."
     },
     {
       "name": "Alexander Berler",
@@ -101,8 +97,8 @@
     },
     {
       "name": "Solans Oscar",
-      "title": "Director of Funtional Strategy in Digital Health Care",
-      "organization": " The Ministry of Health of Catalonia Spain",
+      "title": "Director of Functional Strategy in Digital Health Care",
+      "organization": "The Ministry of Health of Catalonia, Spain",
       "image": "/speakers/oscar.jpeg",
       "bio": ""
     },
@@ -210,152 +206,150 @@
       ]
     },
     {
-      {
-  "day": "Day 2",
-  "date": "November 26, 2025",
-  "theme": "Sharing Information Inside and Outside the Hospital",
-  "sessions": [
-    {
-      "time": "9:00 AM - 9:30 AM",
-      "title": "Hajj Demonstration and Gazelle Tool",
-      "speaker": "Souleymane Thiam (IHE)",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "9:45 AM - 10:15 AM",
-      "title": "HIMSS EMRAM",
-      "speaker": "John Rayner",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "10:30 AM - 11:15 AM",
-      "title": "Gazelle Tools Demo - Medical Imaging Use Case",
-      "speaker": "Souleymane Thiam (IHE)",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "11:30 AM - 12:00 PM",
-      "title": "Enterprise Imaging VNA and XDS",
-      "speaker": "Mourad Lyoubi (SIEMENS)",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "12:15 PM - 12:45 PM",
-      "title": "DGSN: Identity Server and API",
-      "speaker": "DGSN Representatives",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "1:00 PM - 1:30 PM",
-      "title": "Current Interoperability Situation in Spain and Future Directions",
-      "speaker": "Oscar SOLANS",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "1:40 PM - 2:00 PM",
-      "title": "Connected RIS",
-      "speaker": "Oumkaltoum EL MASLOHI (ALPHAT)",
-      "location": "Technical Demo Area"
-    },
-    {
-      "time": "2:30 PM - 3:00 PM",
-      "title": "Lancement du groupe de travail de la gouvernance de MOHIM",
-      "speaker": "Alexandre Berler, Yacine Tamoudi, Izhar Mahjoub",
-      "location": "MOHIM - Stand",
-      "details": [
-        "Feuille de route de MOHIM",
-        "Liste des cas d'usage",
-        "Définition de la méthodologie à utiliser",
-        "Définir le contexte de gouvernance"
+      "day": "Day 2",
+      "date": "November 26, 2025",
+      "theme": "Sharing Information Inside and Outside the Hospital",
+      "sessions": [
+        {
+          "time": "9:00 AM - 9:30 AM",
+          "title": "Hajj Demonstration and Gazelle Tool",
+          "speaker": "Souleymane Thiam (IHE)",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "9:45 AM - 10:15 AM",
+          "title": "HIMSS EMRAM",
+          "speaker": "John Rayner",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "10:30 AM - 11:15 AM",
+          "title": "Gazelle Tools Demo - Medical Imaging Use Case",
+          "speaker": "Souleymane Thiam (IHE)",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "11:30 AM - 12:00 PM",
+          "title": "Enterprise Imaging VNA and XDS",
+          "speaker": "Mourad Lyoubi (SIEMENS)",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "12:15 PM - 12:45 PM",
+          "title": "DGSN: Identity Server and API",
+          "speaker": "DGSN Representatives",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "1:00 PM - 1:30 PM",
+          "title": "Current Interoperability Situation in Spain and Future Directions",
+          "speaker": "Oscar SOLANS",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "1:40 PM - 2:00 PM",
+          "title": "Connected RIS",
+          "speaker": "Oumkaltoum EL MASLOHI (ALPHAT)",
+          "location": "Technical Demo Area"
+        },
+        {
+          "time": "2:30 PM - 3:00 PM",
+          "title": "Lancement du groupe de travail de la gouvernance de MOHIM",
+          "speaker": "Alexandre Berler, Yacine Tamoudi, Izhar Mahjoub",
+          "location": "MOHIM - Stand",
+          "details": [
+            "Feuille de route de MOHIM",
+            "Liste des cas d'usage",
+            "Définition de la méthodologie à utiliser",
+            "Définir le contexte de gouvernance"
+          ]
+        },
+        {
+          "time": "3:00 PM - 3:30 PM",
+          "title": "IPS HAJJ and MOHIM SANDBOX",
+          "speaker": "MOHIM Team",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "3:30 PM - 4:00 PM",
+          "title": "Gazelle Training",
+          "speaker": "Yacine Tamoudi, Souleymane Thiam",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "4:15 PM - 4:45 PM",
+          "title": "Connected Medical Office and Patient Portal",
+          "speaker": "Rania Alaoui",
+          "location": "MOHIM - Stand"
+        }
       ]
     },
     {
-      "time": "3:00 PM - 3:30 PM",
-      "title": "IPS HAJJ and MOHIM SANDBOX",
-      "speaker": "MOHIM Team",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "3:30 PM - 4:00 PM",
-      "title": "Gazelle Training",
-      "speaker": "Yacine Tamoudi, Souleymane Thiam",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "4:15 PM - 4:45 PM",
-      "title": "Connected Medical Office and Patient Portal",
-      "speaker": "Rania Alaoui",
-      "location": "MOHIM - Stand"
+      "day": "Day 3",
+      "date": "November 27, 2025",
+      "theme": "Creating and Operating an HIE",
+      "sessions": [
+        {
+          "time": "9:00 AM - 9:30 AM",
+          "title": "La vulnérabilité des établissements de soins face aux failles de Cyber sécurité NUCLEON",
+          "speaker": "NUCLEON",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "9:45 AM - 10:15 AM",
+          "title": "L'interopérabilité au niveau national et régional - Les HIE nationaux et régionaux",
+          "speaker": "Alexander Berler, Antonio Iglesias, Mourad Lyoubi, Nils",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "10:30 AM - 11:15 AM",
+          "title": "Le patient au centre de la gestion d'un cabinet médical PRATISOFT",
+          "speaker": "Achraf El Ghezali",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "11:30 AM - 12:00 PM",
+          "title": "Le registre du médicament et les profils IHE BLINKPHARMA",
+          "speaker": "Ali Sami",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "12:15 PM - 12:45 PM",
+          "title": "Feuille de route vers un projectathon au Maroc / Afrique",
+          "speaker": "Alexandre Berler, Yacine Tamoudi",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "1:00 PM - 1:30 PM",
+          "title": "Solution Pharmacie en Cloud et connexion à un HIE",
+          "speaker": "H. Tajjiou (SOPHATEL)",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "1:40 PM - 2:00 PM",
+          "title": "OMNIDOC INTEROPÉRABILITÉ DES MÉDICAL DEVICES : LES AMBULANCES CONNECTÉES",
+          "speaker": "Neyl Charni",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "2:00 PM - 3:00 PM",
+          "title": "Démonstration outils Gazelle pour le cas d'usage HIE IPS HAJJ ET FSE",
+          "speaker": "Souleymane Thiam",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "3:00 PM - 3:30 PM",
+          "title": "From Medical Prescription to Drug Dispensation",
+          "speaker": "Tarik Bhija (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "3:30 PM - 4:00 PM",
+          "title": "Interoperable Hospital Solutions FRANCE & MOROCCO - Patient Centricity Process Vision",
+          "speaker": "Mohand Bacha (NUMiH), Mehdi Khaled (Seha), Jean-Baptiste Dubuisson (Enovacom), Izhar Mahjoub",
+          "location": "MOHIM - Stand"
+        }
+      ]
     }
-  ]
-},
-{
-  "day": "Day 3",
-  "date": "November 27, 2025",
-  "theme": "Creating and Operating an HIE",
-  "sessions": [
-    {
-      "time": "9:00 AM - 9:30 AM",
-      "title": "La vulnérabilité des établissements de soins face aux failles de Cyber sécurité NUCLEON",
-      "speaker": "NUCLEON",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "9:45 AM - 10:15 AM",
-      "title": "L'interopérabilité au niveau national et régional - Les HIE nationaux et régionaux",
-      "speaker": "Alexander Berler, Antonio Iglesias, Mourad Lyoubi, Nils",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "10:30 AM - 11:15 AM",
-      "title": "Le patient au centre de la gestion d'un cabinet médical PRATISOFT",
-      "speaker": "Achraf El Ghezali",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "11:30 AM - 12:00 PM",
-      "title": "Le registre du médicament et les profils IHE BLINKPHARMA",
-      "speaker": "Ali Sami",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "12:15 PM - 12:45 PM",
-      "title": "Feuille de route vers un projectathon au Maroc / Afrique",
-      "speaker": "Alexandre Berler, Yacine Tamoudi",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "1:00 PM - 1:30 PM",
-      "title": "Solution Pharmacie en Cloud et connexion à un HIE",
-      "speaker": "H. Tajjiou (SOPHATEL)",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "1:40 PM - 2:00 PM",
-      "title": "OMNIDOC INTEROPÉRABILITÉ DES MÉDICAL DEVICES : LES AMBULANCES CONNECTÉES",
-      "speaker": "Neyl Charni",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "2:00 PM - 3:00 PM",
-      "title": "Démonstration outils Gazelle pour le cas d'usage HIE IPS HAJJ ET FSE",
-      "speaker": "Souleymane Thiam",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "3:00 PM - 3:30 PM",
-      "title": "From Medical Prescription to Drug Dispensation",
-      "speaker": "Tarik Bhija (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
-      "location": "MOHIM - Stand"
-    },
-    {
-      "time": "3:30 PM - 4:00 PM",
-      "title": "Interoperable Hospital Solutions FRANCE & MOROCCO - Patient Centricity Process Vision",
-      "speaker": "Mohand Bacha (NUMiH), Mehdi Khaled (Seha), Jean-Baptiste Dubuisson (Enovacom), Izhar Mahjoub",
-      "location": "MOHIM - Stand"
-    }
-  ]
-}
-
   ]
 }
