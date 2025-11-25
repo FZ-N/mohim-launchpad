@@ -9,7 +9,6 @@
       "bio": ""
     },
 
-
 {
   "name": "Tarek Bhija",
   "title": "Head of Product",
@@ -21,7 +20,14 @@
     "approach": "Son approche combine stratégie produit, automatisation et data intelligence pour faciliter le parcours des professionnels de santé et encourager l'innovation dans le secteur digital marocain."
   }
 },
-
+ {
+      "name": "Nizar BELMAHFOUD ",
+      "title": "CTO/CMO",
+      "organization": "Nabady",
+      "image": "/speakers/Nizar.jpeg",
+      "bio": ""
+    },
+    
     
     {
       "name": "Mohand Bacha",
