@@ -276,12 +276,13 @@
           "speaker": "Yacine Tamoudi, Souleymane Thiam",
           "location": "MOHIM - Stand"
         },
-        {
-          "time": "4:15 PM - 4:45 PM",
-          "title": "Connected Medical Office and Patient Portal",
-          "speaker": "Rania Alaoui",
+          {
+          "time": "4:00 PM - 4:30 PM",
+          "title": "Interoperable Hospital Solutions FRANCE & MOROCCO - Patient Centricity Process Vision",
+          "speaker": "Mohand Bacha (NUMiH), Mehdi Khaled (Seha), Jean-Baptiste Dubuisson (Enovacom), Izhar Mahjoub",
           "location": "MOHIM - Stand"
-        }
+        },
+      
       ]
     },
     {
@@ -337,18 +338,19 @@
           "speaker": "Souleymane Thiam",
           "location": "MOHIM - Stand"
         },
-        {
+          {
           "time": "3:00 PM - 3:30 PM",
-          "title": "From Medical Prescription to Drug Dispensation",
-          "speaker": "Tarik Bhija (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
+          "title": "Connected Medical Office and Patient Portal",
+          "speaker": "Rania Alaoui",
           "location": "MOHIM - Stand"
         },
         {
           "time": "3:30 PM - 4:00 PM",
-          "title": "Interoperable Hospital Solutions FRANCE & MOROCCO - Patient Centricity Process Vision",
-          "speaker": "Mohand Bacha (NUMiH), Mehdi Khaled (Seha), Jean-Baptiste Dubuisson (Enovacom), Izhar Mahjoub",
+          "title": "From Medical Prescription to Drug Dispensation",
+          "speaker": "Tarik Bhija (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
           "location": "MOHIM - Stand"
         }
+      
       ]
     }
   ]
