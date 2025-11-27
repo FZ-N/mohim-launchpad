@@ -271,12 +271,7 @@
       "date": "November 27, 2025",
       "theme": "Creating and Operating an HIE",
       "sessions": [
-        {
-          "time": "10:00 AM - 10:30 AM",
-          "title": "La vulnérabilité des établissements de soins face aux failles de Cyber sécurité NUCLEON",
-          "speaker": "NUCLEON",
-          "location": "MOHIM - Stand"
-        },
+  
 
         {
           "time": "10:30 AM - 11:00 AM",
@@ -331,12 +326,7 @@
         },
         {
           "time": "3:30 PM - 4:00 PM",
-          "title": "Connected Medical Office and Patient Portal",
-          "speaker": "Rania Alaoui",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "4:00 PM - 4:30 PM",
+     
           "title": "From Medical Prescription to Drug Dispensation",
           "speaker": "Tarik Bhija (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
           "location": "MOHIM - Stand"
