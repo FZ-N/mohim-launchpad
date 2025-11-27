@@ -263,18 +263,6 @@
           "title": "IPS HAJJ and MOHIM SANDBOX",
           "speaker": "MOHIM Team",
           "location": "MOHIM - Stand"
-        },
-        {
-          "time": "3:30 PM - 4:00 PM",
-          "title": "Gazelle Training",
-          "speaker": "Yacine Tamoudi, Souleymane Thiam",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "4:00 PM - 4:30 PM",
-          "title": "Interoperable Hospital Solutions FRANCE & MOROCCO - Patient Centricity Process Vision",
-          "speaker": "Mohand Bacha (NUMiH), Mehdi Khaled (Seha), Jean-Baptiste Dubuisson (Enovacom), Izhar Mahjoub",
-          "location": "MOHIM - Stand"
         }
       ]
     },
@@ -284,61 +272,71 @@
       "theme": "Creating and Operating an HIE",
       "sessions": [
         {
-          "time": "9:00 AM - 9:30 AM",
+          "time": "10:00 AM - 10:30 AM",
           "title": "La vulnérabilité des établissements de soins face aux failles de Cyber sécurité NUCLEON",
           "speaker": "NUCLEON",
           "location": "MOHIM - Stand"
         },
+
         {
-          "time": "9:45 AM - 10:15 AM",
-          "title": "L'interopérabilité au niveau national et régional - Les HIE nationaux et régionaux",
-          "speaker": "Alexander Berler, Antonio Iglesias, Mourad Lyoubi, Nils",
-          "location": "MOHIM - Stand"
-        },
-        {
-          "time": "10:30 AM - 11:15 AM",
+          "time": "10:30 AM - 11:00 AM",
           "title": "Le patient au centre de la gestion d'un cabinet médical PRATISOFT",
           "speaker": "Achraf El Ghezali",
           "location": "MOHIM - Stand"
         },
+        
+        {
+          "time": "11:00 AM - 11:30 AM",
+          "title": "L'interopérabilité au niveau national et régional - Les HIE nationaux et régionaux",
+          "speaker": "Alexander Berler, Antonio Iglesias, Mourad Lyoubi, Nils",
+          "location": "MOHIM - Stand"
+        },
+        
+        
         {
           "time": "11:30 AM - 12:00 PM",
+          "title": "Interoperable Hospital Solutions FRANCE & MOROCCO - Patient Centricity Process Vision",
+          "speaker": "Mohand Bacha (NUMiH), Mehdi Khaled (Seha), Jean-Baptiste Dubuisson (Enovacom), Izhar Mahjoub",
+          "location": "MOHIM - Stand"
+        },
+        {
+          "time": "12:00 PM - 12:30 PM",
           "title": "Le registre du médicament et les profils IHE BLINKPHARMA",
           "speaker": "Ali Sami",
           "location": "MOHIM - Stand"
         },
         {
-          "time": "12:15 PM - 12:45 PM",
+          "time": "12:30 PM - 1:00 PM",
           "title": "Feuille de route vers un projectathon au Maroc / Afrique",
           "speaker": "Alexandre Berler, Yacine Tamoudi",
           "location": "MOHIM - Stand"
         },
         {
-          "time": "1:00 PM - 1:30 PM",
+          "time": "2:00 PM - 2:30 PM",
           "title": "Solution Pharmacie en Cloud et connexion à un HIE",
           "speaker": "H. Tajjiou (SOPHATEL)",
           "location": "MOHIM - Stand"
         },
         {
-          "time": "1:40 PM - 2:00 PM",
+          "time": "2:30 PM - 3:00 PM",
           "title": "OMNIDOC INTEROPÉRABILITÉ DES MÉDICAL DEVICES : LES AMBULANCES CONNECTÉES",
           "speaker": "Neyl Charni",
           "location": "MOHIM - Stand"
         },
         {
-          "time": "2:00 PM - 3:00 PM",
+          "time": "3:00 PM - 3:30 PM",
           "title": "Démonstration outils Gazelle pour le cas d'usage HIE IPS HAJJ ET FSE",
           "speaker": "Souleymane Thiam",
           "location": "MOHIM - Stand"
         },
         {
-          "time": "3:00 PM - 3:30 PM",
+          "time": "3:30 PM - 4:00 PM",
           "title": "Connected Medical Office and Patient Portal",
           "speaker": "Rania Alaoui",
           "location": "MOHIM - Stand"
         },
         {
-          "time": "3:30 PM - 4:00 PM",
+          "time": "4:00 PM - 4:30 PM",
           "title": "From Medical Prescription to Drug Dispensation",
           "speaker": "Tarik Bhija (Sobrus), Houssam Tajjiou (Sophatel), Ali Sami (BlinkPharma), Amine Tazi (Magica)",
           "location": "MOHIM - Stand"
