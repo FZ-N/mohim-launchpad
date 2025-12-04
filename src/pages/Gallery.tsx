@@ -1,10 +1,24 @@
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useState } from 'react';
+import { Dialog, DialogContent } from '@/components/ui/dialog';
+import { X } from 'lucide-react';
 
 const Gallery = () => {
   const { t } = useLanguage();
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   
-  const driveFolderId = "1eXzGiu0PDG3X-wYYielzWsMI8akkcKy_";
+  // Google Drive folder for external link
+  const driveFolderUrl = "https://drive.google.com/drive/folders/1eXzGiu0PDG3X-wYYielzWsMI8akkcKy_";
   
+  // Add your Google Drive image IDs here
+  // To get the ID: right-click image in Drive > Get link > extract ID from URL
+  const imageIds = [
+    // Example: "1ABC123xyz" - add your image IDs here
+  ];
+
+  const getImageUrl = (id: string) => 
+    `https://drive.google.com/thumbnail?id=${id}&sz=w800`;
+
   return (
     <main className="min-h-screen bg-background pt-20">
       {/* Hero Section */}
@@ -19,22 +33,69 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* Gallery Embed Section */}
+      {/* Gallery Section */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="bg-card rounded-xl shadow-lg overflow-hidden border border-border">
-            <iframe
-              src={`https://drive.google.com/embeddedfolderview?id=${driveFolderId}#grid`}
-              className="w-full h-[600px] md:h-[800px] border-0"
-              title={t('gallery.title')}
-              allowFullScreen
-            />
-          </div>
-          <p className="text-center text-sm text-muted-foreground mt-4">
-            {t('gallery.viewMore')}
+          {imageIds.length > 0 ? (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {imageIds.map((id, index) => (
+                <div
+                  key={id}
+                  className="aspect-square overflow-hidden rounded-lg bg-muted cursor-pointer hover:opacity-90 transition-opacity shadow-md"
+                  onClick={() => setSelectedImage(id)}
+                >
+                  <img
+                    src={getImageUrl(id)}
+                    alt={`Gallery image ${index + 1}`}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
+            </div>
+          ) : (
+            /* Fallback to embedded view when no individual images are set */
+            <div className="bg-card rounded-xl shadow-lg overflow-hidden border border-border">
+              <iframe
+                src={`https://drive.google.com/embeddedfolderview?id=1eXzGiu0PDG3X-wYYielzWsMI8akkcKy_#grid`}
+                className="w-full h-[600px] md:h-[800px] border-0"
+                title={t('gallery.title')}
+                allowFullScreen
+              />
+            </div>
+          )}
+          
+          <p className="text-center text-sm text-muted-foreground mt-6">
+            <a 
+              href={driveFolderUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:underline"
+            >
+              {t('gallery.viewMore')}
+            </a>
           </p>
         </div>
       </section>
+
+      {/* Lightbox Dialog */}
+      <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
+        <DialogContent className="max-w-4xl p-0 bg-transparent border-none">
+          <button
+            onClick={() => setSelectedImage(null)}
+            className="absolute top-2 right-2 z-10 p-2 bg-black/50 rounded-full text-white hover:bg-black/70 transition-colors"
+          >
+            <X className="w-5 h-5" />
+          </button>
+          {selectedImage && (
+            <img
+              src={`https://drive.google.com/thumbnail?id=${selectedImage}&sz=w1200`}
+              alt="Gallery image"
+              className="w-full h-auto rounded-lg"
+            />
+          )}
+        </DialogContent>
+      </Dialog>
     </main>
   );
 };
