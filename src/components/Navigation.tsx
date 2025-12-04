@@ -16,6 +16,7 @@ export const Navigation = () => {
     { to: '/use-case', label: t('nav.usecase') },
     { to: '/technology', label: t('nav.technology') },
     { to: '/events', label: t('nav.events') },
+    { to: '/gallery', label: t('nav.gallery') },
     { to: '/contact', label: t('nav.contact') },
   ];
 
