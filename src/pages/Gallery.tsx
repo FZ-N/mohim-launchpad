@@ -3,8 +3,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 const Gallery = () => {
   const { t } = useLanguage();
   
-  // Replace this with your actual Google Drive folder ID
-  const driveFolderId = "YOUR_GOOGLE_DRIVE_FOLDER_ID";
+  const driveFolderId = "1eXzGiu0PDG3X-wYYielzWsMI8akkcKy_";
   
   return (
     <main className="min-h-screen bg-background pt-20">
