@@ -16,7 +16,13 @@ const translations = {
     'nav.usecase': 'Use Case',
     'nav.technology': 'Technology',
     'nav.events': 'Forum 2025',
+    'nav.gallery': 'Gallery',
     'nav.contact': 'Contact',
+    
+    // Gallery
+    'gallery.title': 'Photo Gallery',
+    'gallery.subtitle': 'Explore moments from MOHIM events, workshops, and partnerships',
+    'gallery.viewMore': 'Click on images to view full size in Google Drive',
     
     // Home
     'home.title': 'MOHIM',
@@ -108,7 +114,13 @@ const translations = {
     'nav.usecase': 'Cas d\'usage',
     'nav.technology': 'Technologie',
     'nav.events': 'Forum 2025',
+    'nav.gallery': 'Galerie',
     'nav.contact': 'Contact',
+    
+    // Gallery
+    'gallery.title': 'Galerie Photos',
+    'gallery.subtitle': 'Découvrez les moments des événements, ateliers et partenariats MOHIM',
+    'gallery.viewMore': 'Cliquez sur les images pour les voir en taille réelle dans Google Drive',
     
     // Home
     'home.title': 'MOHIM',
