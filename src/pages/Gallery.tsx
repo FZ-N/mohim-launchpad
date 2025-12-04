@@ -59,13 +59,12 @@ const Gallery = () => {
               <div className="relative overflow-hidden" style={{ height: '700px' }}>
                 <iframe
                   src={`https://drive.google.com/embeddedfolderview?id=1eXzGiu0PDG3X-wYYielzWsMI8akkcKy_#grid`}
-                  className="w-full border-0 absolute top-0 left-0"
+                  className="w-full border-0 absolute top-0 left-0 pointer-events-none"
                   style={{ height: '900px' }}
                   title={t('gallery.title')}
-                  allowFullScreen
                 />
                 {/* Gradient overlay to hide file names */}
-                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-card to-transparent pointer-events-none" />
+                <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-card to-transparent" />
               </div>
             </div>
           )}
