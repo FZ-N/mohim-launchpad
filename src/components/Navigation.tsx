@@ -2,7 +2,7 @@ import { NavLink } from '@/components/NavLink';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
 import { Globe, Menu, X, ChevronDown } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import mohimLogo from '@/assets/mohim_logo.jpeg';
 import {
   DropdownMenu,
@@ -16,6 +16,15 @@ export const Navigation = () => {
   const { language, toggleLanguage, t } = useLanguage();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [forumSubmenuOpen, setForumSubmenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navLinks = [
     { to: '/', label: t('nav.home') },
@@ -32,12 +41,22 @@ export const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md border-b border-border">
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled 
+        ? 'bg-white/95 backdrop-blur-xl shadow-medium border-b border-border/50' 
+        : 'bg-white/80 backdrop-blur-md'
+    }`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <NavLink to="/" className="flex items-center space-x-4">
-            <img src={mohimLogo} alt="MOHIM Logo" className="h-14 w-auto" />
+          <NavLink to="/" className="flex items-center space-x-3 group">
+            <div className="relative">
+              <img 
+                src={mohimLogo} 
+                alt="MOHIM Logo" 
+                className="h-14 w-auto rounded-xl transition-transform duration-300 group-hover:scale-105" 
+              />
+            </div>
           </NavLink>
 
           {/* Desktop Navigation */}
@@ -46,8 +65,8 @@ export const Navigation = () => {
               <NavLink
                 key={link.to}
                 to={link.to}
-                className="px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-muted"
-                activeClassName="text-primary bg-muted"
+                className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:text-primary transition-all rounded-xl hover:bg-primary/5"
+                activeClassName="text-primary bg-primary/10"
               >
                 {link.label}
               </NavLink>
@@ -56,17 +75,17 @@ export const Navigation = () => {
             {/* Forum 2025 Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button className="px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-muted flex items-center gap-1">
+                <button className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:text-primary transition-all rounded-xl hover:bg-primary/5 flex items-center gap-1.5">
                   {t('nav.events')}
-                  <ChevronDown className="h-4 w-4" />
+                  <ChevronDown className="h-4 w-4 opacity-60" />
                 </button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="center" className="bg-white">
+              <DropdownMenuContent align="center" className="bg-white/95 backdrop-blur-xl border-border/50 shadow-strong rounded-xl p-2 min-w-[160px]">
                 {forumSubLinks.map((link) => (
                   <DropdownMenuItem key={link.to} asChild>
                     <Link
                       to={link.to}
-                      className="w-full cursor-pointer"
+                      className="w-full cursor-pointer rounded-lg px-3 py-2.5 text-sm font-medium hover:bg-primary/5 hover:text-primary transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -77,8 +96,8 @@ export const Navigation = () => {
 
             <NavLink
               to="/contact"
-              className="px-4 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors rounded-lg hover:bg-muted"
-              activeClassName="text-primary bg-muted"
+              className="px-4 py-2.5 text-sm font-medium text-foreground/80 hover:text-primary transition-all rounded-xl hover:bg-primary/5"
+              activeClassName="text-primary bg-primary/10"
             >
               {t('nav.contact')}
             </NavLink>
@@ -90,17 +109,17 @@ export const Navigation = () => {
               variant="ghost"
               size="sm"
               onClick={toggleLanguage}
-              className="flex items-center space-x-1"
+              className="flex items-center gap-2 rounded-xl hover:bg-primary/5 text-foreground/70 hover:text-primary"
             >
               <Globe className="w-4 h-4" />
-              <span className="text-xs font-medium uppercase">{language}</span>
+              <span className="text-xs font-semibold uppercase tracking-wide">{language}</span>
             </Button>
 
             {/* Mobile Menu Button */}
             <Button
               variant="ghost"
               size="sm"
-              className="md:hidden"
+              className="md:hidden rounded-xl hover:bg-primary/5"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -110,15 +129,17 @@ export const Navigation = () => {
       </div>
 
       {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-border">
-          <div className="container mx-auto px-4 py-4 space-y-2">
+      <div className={`md:hidden overflow-hidden transition-all duration-300 ${
+        mobileMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'
+      }`}>
+        <div className="bg-white/95 backdrop-blur-xl border-t border-border/50">
+          <div className="container mx-auto px-4 py-4 space-y-1">
             {navLinks.slice(0, 4).map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
-                className="block px-4 py-2 text-sm font-medium text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
-                activeClassName="text-primary bg-muted"
+                className="block px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-all"
+                activeClassName="text-primary bg-primary/10"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.label}
@@ -126,42 +147,42 @@ export const Navigation = () => {
             ))}
 
             {/* Forum 2025 Mobile Submenu */}
-            <div className="border-t border-border pt-2 mt-2">
+            <div className="border-t border-border/50 pt-2 mt-2">
               <button
                 onClick={() => setForumSubmenuOpen(!forumSubmenuOpen)}
-                className="w-full flex items-center justify-between px-4 py-2 text-sm font-medium text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
+                className="w-full flex items-center justify-between px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-all"
               >
                 {t('nav.events')}
-                <ChevronDown className={`h-4 w-4 transition-transform ${forumSubmenuOpen ? 'rotate-180' : ''}`} />
+                <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${forumSubmenuOpen ? 'rotate-180' : ''}`} />
               </button>
-              {forumSubmenuOpen && (
-                <div className="ml-4 space-y-1">
+              <div className={`overflow-hidden transition-all duration-200 ${forumSubmenuOpen ? 'max-h-40' : 'max-h-0'}`}>
+                <div className="ml-4 space-y-1 pt-1">
                   {forumSubLinks.map((link) => (
                     <NavLink
                       key={link.to}
                       to={link.to}
-                      className="block px-4 py-2 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
-                      activeClassName="text-primary bg-muted"
+                      className="block px-4 py-2.5 text-sm font-medium text-muted-foreground hover:text-primary hover:bg-primary/5 rounded-xl transition-all"
+                      activeClassName="text-primary bg-primary/10"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {link.label}
                     </NavLink>
                   ))}
                 </div>
-              )}
+              </div>
             </div>
 
             <NavLink
               to="/contact"
-              className="block px-4 py-2 text-sm font-medium text-foreground hover:text-primary hover:bg-muted rounded-lg transition-colors"
-              activeClassName="text-primary bg-muted"
+              className="block px-4 py-3 text-sm font-medium text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-all"
+              activeClassName="text-primary bg-primary/10"
               onClick={() => setMobileMenuOpen(false)}
             >
               {t('nav.contact')}
             </NavLink>
           </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 };
