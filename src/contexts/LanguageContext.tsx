@@ -17,7 +17,14 @@ const translations = {
     'nav.technology': 'Technology',
     'nav.events': 'Forum 2025',
     'nav.gallery': 'Gallery',
+    'nav.presentations': 'Presentations',
     'nav.contact': 'Contact',
+    
+    // Presentations
+    'presentations': 'Presentations',
+    'presentationsDescription': 'Access presentation files, slides, and documents from MOHIM events and workshops.',
+    'presentationFiles': 'Presentation Files',
+    'openInDrive': 'Open in Google Drive',
     
     // Gallery
     'gallery.title': 'Photo Gallery',
@@ -115,7 +122,14 @@ const translations = {
     'nav.technology': 'Technologie',
     'nav.events': 'Forum 2025',
     'nav.gallery': 'Galerie',
+    'nav.presentations': 'Présentations',
     'nav.contact': 'Contact',
+    
+    // Presentations
+    'presentations': 'Présentations',
+    'presentationsDescription': 'Accédez aux fichiers de présentation, diapositives et documents des événements et ateliers MOHIM.',
+    'presentationFiles': 'Fichiers de Présentation',
+    'openInDrive': 'Ouvrir dans Google Drive',
     
     // Gallery
     'gallery.title': 'Galerie Photos',
