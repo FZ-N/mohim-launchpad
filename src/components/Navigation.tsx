@@ -17,6 +17,7 @@ export const Navigation = () => {
     { to: '/technology', label: t('nav.technology') },
     { to: '/events', label: t('nav.events') },
     { to: '/gallery', label: t('nav.gallery') },
+    { to: '/presentations', label: t('nav.presentations') },
     { to: '/contact', label: t('nav.contact') },
   ];
 
