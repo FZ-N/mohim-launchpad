@@ -20,6 +20,7 @@ const translations = {
     'nav.gallery': 'Gallery',
     'nav.presentations': 'Presentations',
     'nav.contact': 'Contact',
+    'nav.joinUs': 'Join Us',
     
     // Presentations
     'presentations': 'Presentations',
@@ -126,6 +127,7 @@ const translations = {
     'nav.gallery': 'Galerie',
     'nav.presentations': 'Présentations',
     'nav.contact': 'Contact',
+    'nav.joinUs': 'Rejoignez-nous',
     
     // Presentations
     'presentations': 'Présentations',

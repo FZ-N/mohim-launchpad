@@ -14,6 +14,7 @@ import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Presentations from "./pages/Presentations";
+import JoinUs from "./pages/JoinUs";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/presentations" element={<Presentations />} />
+            <Route path="/join-us" element={<JoinUs />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
