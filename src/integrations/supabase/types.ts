@@ -20,16 +20,24 @@ export type Database = {
           billing_address: string | null
           billing_city: string | null
           billing_country: string | null
+          city: string | null
+          company_name: string | null
+          country: string | null
           created_at: string | null
           data_privacy_consent: boolean
           desired_services: string[] | null
           email: string
           first_name: string
           id: string
+          job_title: string | null
           last_name: string
           membership_type: string
+          newsletter_consent: boolean | null
           organization: string | null
+          payment_method: string | null
           phone: string | null
+          sector: string | null
+          tax_id: string | null
           terms_consent: boolean
           updated_at: string | null
         }
@@ -38,16 +46,24 @@ export type Database = {
           billing_address?: string | null
           billing_city?: string | null
           billing_country?: string | null
+          city?: string | null
+          company_name?: string | null
+          country?: string | null
           created_at?: string | null
           data_privacy_consent?: boolean
           desired_services?: string[] | null
           email: string
           first_name: string
           id?: string
+          job_title?: string | null
           last_name: string
           membership_type: string
+          newsletter_consent?: boolean | null
           organization?: string | null
+          payment_method?: string | null
           phone?: string | null
+          sector?: string | null
+          tax_id?: string | null
           terms_consent?: boolean
           updated_at?: string | null
         }
@@ -56,16 +72,24 @@ export type Database = {
           billing_address?: string | null
           billing_city?: string | null
           billing_country?: string | null
+          city?: string | null
+          company_name?: string | null
+          country?: string | null
           created_at?: string | null
           data_privacy_consent?: boolean
           desired_services?: string[] | null
           email?: string
           first_name?: string
           id?: string
+          job_title?: string | null
           last_name?: string
           membership_type?: string
+          newsletter_consent?: boolean | null
           organization?: string | null
+          payment_method?: string | null
           phone?: string | null
+          sector?: string | null
+          tax_id?: string | null
           terms_consent?: boolean
           updated_at?: string | null
         }

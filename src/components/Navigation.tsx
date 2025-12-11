@@ -31,6 +31,7 @@ export const Navigation = () => {
     { to: '/about', label: t('nav.about') },
     { to: '/use-case', label: t('nav.usecase') },
     { to: '/technology', label: t('nav.technology') },
+    { to: '/join-us', label: t('nav.joinUs') },
     { to: '/contact', label: t('nav.contact') },
   ];
 
@@ -61,7 +62,7 @@ export const Navigation = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
-            {navLinks.slice(0, 4).map((link) => (
+            {navLinks.slice(0, 5).map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
@@ -134,7 +135,7 @@ export const Navigation = () => {
       }`}>
         <div className="bg-white/95 backdrop-blur-xl border-t border-border/50">
           <div className="container mx-auto px-4 py-4 space-y-1">
-            {navLinks.slice(0, 4).map((link) => (
+            {navLinks.slice(0, 5).map((link) => (
               <NavLink
                 key={link.to}
                 to={link.to}
